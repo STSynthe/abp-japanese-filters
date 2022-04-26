@@ -3942,10 +3942,6 @@
 ^bnr^pr^
 ^bnr^pr_
 ^ca-pub-
-^campaign-$third-party
-^campaign.$third-party
-^campaign^$third-party
-^campaign_$third-party
 ^cellcast-media-
 ^cellcast-media.
 ^cellcast-media^
@@ -5216,8 +5212,8 @@
 |https:*_ad.$popup
 |http:*_ad^
 |http:*_ad^$popup
-|https:*_ad^
-|https:*_ad^$popup
+! |https:*_ad^
+! |https:*_ad^$popup
 |http:*_ad_
 |http:*_ad_$popup
 |https:*_ad_
