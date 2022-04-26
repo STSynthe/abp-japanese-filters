@@ -7021,8 +7021,6 @@ _yahooads_
 ||click.alibaba.com^$popup
 ||offer.alibaba.com^
 ||offer.alibaba.com^$popup
-||aliexpress.com^
-||aliexpress.com^$popup
 ||alimama.cn^$third-party
 ||alistcloud.com^
 ||allabout.co.jp/js/aa/
