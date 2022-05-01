@@ -3784,10 +3784,6 @@
 ^analysis.$third-party
 ^analysis^$third-party
 ^analysis_$third-party
-^analytics-
-^analytics.$domain=~analytics.twitter.com
-^analytics^
-^analytics_
 ^analytics0-
 ^analytics0.
 ^analytics0^
