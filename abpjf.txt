@@ -22,6 +22,7 @@
 ! msftauth.net + outlook.live.com/owa/auth/ added in 2022-05-03 reference -> https://docs.microsoft.com/ja-jp/mem/configmgr/core/plan-design/network/internet-endpoints
 @@||msftauth.net$domain=live.com
 @@||outlook.live.com/owa/auth/
+@@||ext.live.nicovideo.jp/watch/
 !
 ! ---------- Default white list END ----------
 !
@@ -9623,6 +9624,11 @@ _yahooads_
 ||mtc.nhk.or.jp^
 ||mtcs.nhk.or.jp^
 ||nhncorp.jp^$third-party
+! nicovideo.jp added in 2022-05-02
+nicovideo.jp##.kokoku
+nicovideo.jp##[id^="ads_"]
+nicovideo.jp##[class*="ad-bannar"]
+dic.nicovideo.jp##div#right-column > div:nth-child(2)
 ||nielsen.com^$third-party
 ||nifty.com^*/match_com-module-
 ||business.nifty.com/articles/*/banner/$image,object,subdocument
