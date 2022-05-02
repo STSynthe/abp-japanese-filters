@@ -8683,11 +8683,6 @@ _yahooads_
 ||infolinks.com^$third-party
 ||informer.com^$third-party
 ||infosecisland.com/bannershow/zone/
-||infoseek.co.jp/ajax/js/ashiato-$script
-||infoseek.co.jp/bin/
-||iswimg.hp.infoseek.co.jp^
-||ax*.www.infoseek.co.jp/bin/
-||topics.news.www.infoseek.co.jp^$subdocument
 ||infostatsvc.com^
 ||infotop.$third-party
 ||inkomst.se.com^$popup
