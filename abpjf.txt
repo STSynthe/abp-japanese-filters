@@ -11411,6 +11411,8 @@ _yahooads_
 ||yadro.ru^
 ! yahoo.co.jp added in 2022-05-03
 yahoo.co.jp##div>div[id^="mhd_uhd"]
+! yahoo.co.jp added in 2022-05-03
+www.yahoo.co.jp##div#qurireco>article:not([data-ual])
 ||yahoo.*/api/ovcm?
 ||yahoo.*/b?
 ||yahoo.*/c?
