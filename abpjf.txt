@@ -2010,8 +2010,6 @@
 /analyticsengine/*$third-party
 /analyticsid.
 /aolvidmetrics/*
-/applibar.$domain=nicovideo.jp
-/applibar_$domain=nicovideo.jp
 /AppMeasurementExtension.
 /apu.php?id=
 /arj?o=
@@ -2163,10 +2161,6 @@
 /get-js?dc_id=
 ! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
 ! /getad^
-/getmarquee-$domain=nicovideo.jp
-/getmarquee.$domain=nicovideo.jp
-/getmarquee^$domain=nicovideo.jp
-/getmarquee_$domain=nicovideo.jp
 /globalAdTag.$script
 /redirect/*$document
 /google.html?cb=$subdocument
@@ -2270,8 +2264,6 @@
 /lt?guid=*&gender=*&zip=
 /lt?sid=*&gender=*&zip=
 /makePCookie_
-/marquee/*$domain=nicovideo.jp
-/marqueeplayer.$domain=nicovideo.jp
 /matc.$script
 /mbadw.$third-party
 /MBF_MS_
@@ -2523,16 +2515,6 @@ outlook.live.com##div#app > div > div[tabindex="-1"] + div > div:nth-of-type(2) 
 /TrafficBroker/*
 /trans_pixel.
 /trckdsp?
-! /txt_ad-
-! /txt_ad.
-! /txt_ad^
-! /txt_ad_
-! Commented out duplicated filters, Feb 26, 2012
-! /txt_ads-
-! /txt_ads.
-! /txt_ads^
-! /txt_ads_
-/UadVideoService/*$domain=nicovideo.jp
 /udctrack.
 ! Commented out duplicated filters, Feb 26, 2012
 ! /uds/api/ads/*
@@ -9655,13 +9637,6 @@ dic.nicovideo.jp##div#right-column > div:nth-child(2)
 ||nikkeibp.co.jp/images/*/itprostore.$image,object,subdocument
 ||nikkeibp.co.jp/img/rpt/
 ||bizad.nikkeibp.co.jp^
-||nimg.jp^*/searchformflash/$domain=nicovideo.jp
-||nimg.jp^*/Uad$script,domain=nicovideo.jp|~uad.nicovideo.jp
-||nimg.jp/img/index/top/nsen/$domain=nicovideo.jp
-||nimg.jp/js/*_uad_$domain=nicovideo.jp
-||nimg.jp/js/index.$script,domain=nicovideo.jp
-! ||nimg.jp/swf/appli/ cause false positives at app.nicovideo.jp
-||nimg.jp/swf/appli/$domain=nicovideo.jp|~app.nicovideo.jp
 ||ninjasoftwarellc.com^
 ||nizigenero.com^$third-party
 ||njaxjs.me^
