@@ -19,6 +19,9 @@
 @@||s.yimg.jp/images/points/toku$image
 ! www.amazon.co.jp added in 2022-05-03
 @@||www.amazon.co.jp/promotion/$xmlhttprequest
+! msftauth.net + outlook.live.com/owa/auth/ added in 2022-05-03 reference -> https://docs.microsoft.com/ja-jp/mem/configmgr/core/plan-design/network/internet-endpoints
+@@||msftauth.net$domain=live.com
+@@||outlook.live.com/owa/auth/
 !
 ! ---------- Default white list END ----------
 !
@@ -2315,6 +2318,8 @@
 /overtureAd.
 /OvertureSS.
 /owa.$script,domain=~outlook.live.com
+! outlook.live.com added in 2022-05-03
+outlook.live.com##div#app > div > div[tabindex="-1"] + div > div:nth-of-type(2) div > div > div > div[data-max-width="2400"] + div
 /OxBannerService/*
 /p.e-words.jp/type
 /p_code.$script
