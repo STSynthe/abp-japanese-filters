@@ -5077,10 +5077,6 @@ outlook.live.com##div#app > div > div[tabindex="-1"] + div > div:nth-of-type(2) 
 ^teasers.
 ^teasers^
 ^teasers_
-^telemetry-
-^telemetry.
-^telemetry^
-^telemetry_
 ^textad-
 ^textad.
 ^textad^
