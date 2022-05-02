@@ -11409,6 +11409,8 @@ _yahooads_
 ||y8.com^$popup
 ||yabidos.com^
 ||yadro.ru^
+! yahoo.co.jp added in 2022-05-03
+yahoo.co.jp##div>div[id^="mhd_uhd"]
 ||yahoo.*/api/ovcm?
 ||yahoo.*/b?
 ||yahoo.*/c?
