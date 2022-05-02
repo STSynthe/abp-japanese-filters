@@ -2009,9 +2009,6 @@
 /analytic.php?id=$third-party
 /analyticsengine/*$third-party
 /analyticsid.
-! Commented out to avoid the false positive preventing users from change its playing position on the progress bar of HTML5 player, reported by zanderzhng, May 01, 2015
-! Re-enabled the commented out filter again, Apr 04, 2017
-/annotations_$domain=youtube.com
 /aolvidmetrics/*
 /applibar.$domain=nicovideo.jp
 /applibar_$domain=nicovideo.jp
