@@ -11504,7 +11504,7 @@ _yahooads_
 ||yieldtraffic.com^$popup
 ||yigao.com^$third-party
 ||yimg.*/bdv/$domain=tumblr.com|yahoo.co.jp|yahoo.com
-||yimg.*/images/*/campaign/$domain=tumblr.com|yahoo.co.jp|yahoo.com
+||yimg.*/images/*/campaign/$domain=tumblr.com|yahoo.co.jp|~toku.yahoo.co.jp|yahoo.com
 ||yimg.*/images/*/point$domain=tumblr.com|yahoo.co.jp|yahoo.com
 ||yimg.*/images/*/pr/$domain=tumblr.com|yahoo.co.jp|yahoo.com
 ||yimg.*/images/account/sp/*/reg/ccc/$domain=tumblr.com|yahoo.co.jp|yahoo.com
