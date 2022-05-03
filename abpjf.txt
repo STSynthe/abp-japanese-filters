@@ -5478,7 +5478,6 @@ _campaign.$third-party
 _campaign^$third-party
 _campaign_$third-party
 _campaign=$document
-_campaign=$popup
 _cellcast-media-
 _cellcast-media.
 _cellcast-media^
