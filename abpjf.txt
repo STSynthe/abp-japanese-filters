@@ -6211,7 +6211,7 @@ _yahooads_
 ||2leep.com^$third-party
 ||2mdn.net^$popup
 ||2mdn.net^$third-party
-||2o7.net^$third-party
+||2o7.net^$third-party,domain=~affiliate.amazon.co.jp
 ||32b4oilo.com^
 ||32d1d3b9c.se^
 ||32d1d3b9c.se^$popup
