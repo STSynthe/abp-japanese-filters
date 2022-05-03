@@ -3725,14 +3725,14 @@ outlook.live.com##div#app > div > div[tabindex="-1"] + div > div:nth-of-type(2) 
 ^affClickId^$popup
 ^affClickId_
 ^affClickId_$popup
-^affiliate-
-^affiliate-$popup
-^affiliate.
-^affiliate.$popup
-^affiliate^
-^affiliate^$popup
-^affiliate_
-^affiliate_$popup
+! ^affiliate-
+^affiliate-$popup,third-party
+! ^affiliate.
+^affiliate.$popup,third-party
+! ^affiliate^
+^affiliate^$popup,third-party
+! ^affiliate_
+^affiliate_$popup,third-party
 ^affiliatebanner-
 ^affiliatebanner.
 ^affiliatebanner^
