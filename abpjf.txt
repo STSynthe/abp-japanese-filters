@@ -2427,8 +2427,6 @@ outlook.live.com##div#app > div > div[tabindex="-1"] + div > div:nth-of-type(2) 
 /scripts/sj_$script,third-party
 /sd/apps/*$popup
 /sd/apps/*$third-party
-/sdc.js
-/sdc1.js
 /sdctag.$script
 /sdctag1.$script
 ! /settings/ad.
