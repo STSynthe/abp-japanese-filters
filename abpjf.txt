@@ -23,6 +23,8 @@
 @@||msftauth.net$domain=live.com
 @@||outlook.live.com/owa/auth/
 @@||ext.live.nicovideo.jp/watch/
+! *.go.jp added in 2022-05-03
+@@||*.go.jp^
 !
 ! ---------- Default white list END ----------
 !
