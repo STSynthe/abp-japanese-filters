@@ -6120,44 +6120,6 @@ _yahooads_
 ://210.155.151.148^
 ://217.19.51.
 !
-! Added malicious IP Addresses reported at http://unixfreaxjp.blogspot.jp/2013/08/ocjp-119kelihos.html and http://malwaremustdie.blogspot.jp/2013/08/the-quick-report-on-48hours-in-battle.html by [https://twitter.com/unixfreaxjp @unixfreaxjp] via Changelog wiki, Aug 9, 2013
-! START
-://58.0.83.121^
-://58.1.146.36^
-://58.89.126.241^
-://60.40.158.22^
-://60.71.211.55^
-://61.27.199.31^
-://61.200.114.40^
-://106.169.115.234^
-://110.133.156.104^
-://111.67.162.60^
-://112.139.167.48^
-://114.48.16.144^
-://114.178.77.6^
-://116.65.108.115^
-://116.83.151.87^
-://117.74.46.13^
-://119.171.13.230^
-://121.2.3.182^
-://123.216.163.119^
-://125.4.35.24^
-://126.4.196.160^
-://153.185.24.123^
-://180.11.51.121^
-://180.61.12.209^
-://183.72.151.211^
-://203.114.209.218^
-://210.1.161.235^
-://210.148.165.67^
-://218.110.111.80^
-://219.103.108.90^
-://219.115.243.108^
-://219.121.156.187^
-://223.133.68.174^
-! END
-! Added malicious IP Addresses reported at http://unixfreaxjp.blogspot.jp/2013/08/ocjp-119kelihos.html and http://malwaremustdie.blogspot.jp/2013/08/the-quick-report-on-48hours-in-battle.html by [https://twitter.com/unixfreaxjp @unixfreaxjp] via Changelog wiki, Aug 9, 2013
-!
 ||*-aaa.net^$third-party
 ||*-adsterra.com^$document
 ||*-arata.com^$third-party
@@ -6168,7 +6130,6 @@ _yahooads_
 ||*adexchange.com^$popup
 ||*tab.com/?*&subid=
 ||*tab.com/click.gif?landing_id=
-
 ||00h10.com^
 ||0427d7.se^$popup
 ||08lkk.com/*/data/attachment/common/cf/
