@@ -27,6 +27,8 @@
 @@||*.go.jp^
 ! dlsite.com added in 2022-05-03
 @@||www.dlsite.com/vue/js/$script
+! goo.ne.jp added in 2022-05-04
+@@||ad-img.gesoten.com^$domain=game.goo.ne.jp|ad-img.gesoten.com
 !
 ! ---------- Default white list END ----------
 !
