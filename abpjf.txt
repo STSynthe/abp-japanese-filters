@@ -25,6 +25,8 @@
 @@||ext.live.nicovideo.jp/watch/
 ! *.go.jp added in 2022-05-03
 @@||*.go.jp^
+! dlsite.com added in 2022-05-03
+@@||www.dlsite.com/vue/js/$script
 !
 ! ---------- Default white list END ----------
 !
