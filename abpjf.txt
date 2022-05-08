@@ -99,8 +99,6 @@
 .showads.
 .showads^
 .showads_
-/owa.$script,domain=~outlook.live.com
-/js/top_ad
 ?affichage=
 ?affid=
 ?affid=$document
@@ -234,6 +232,14 @@ _campaign.$third-party
 _campaign^$third-party
 _campaign_$third-party
 _campaign=$document
+
+/owa.$script,domain=~outlook.live.com
+! added in 2022-05-08 (5ch.net)
+5ch.net/js/top_ad.js|
+! added in 2022-05-09 (5ch.net)
+5ch.net/js/ads.js|
+! added in 2022-05-09
+/*/banner/*$image
 
 ://ad-cdn.
 ://adcl.
