@@ -316,6 +316,9 @@ dic.nicovideo.jp##div#right-column > div:nth-child(2)
 outlook.live.com##div#app > div > div[tabindex="-1"] + div > div:nth-of-type(2) div > div > div > div[data-max-width="2400"] + div
 ! yahoo.co.jp added in 2022-05-03
 www.yahoo.co.jp##article#Stream div > div > article:not([data-ual])
+! yomiuri.co.jp added in 2022-05-08
+yomiuri.co.jp##div[class*="-ad-"]
+yomiuri.co.jp##div.ad
 !
 ! Elements END
 !
