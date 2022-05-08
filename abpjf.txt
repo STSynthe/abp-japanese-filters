@@ -28,7 +28,6 @@
 ! dlsite.com added in 2022-05-03
 @@||www.dlsite.com/vue/js/$script
 ! goo.ne.jp added in 2022-05-04
-! @@||ad-img.gesoten.com^$domain=game.goo.ne.jp|ad-img.gesoten.com
 @@||search.google.com^
 !
 ! ---------- Default white list END ----------
@@ -101,6 +100,7 @@
 .showads^
 .showads_
 /owa.$script,domain=~outlook.live.com
+/js/top_ad$script
 ! outlook.live.com added in 2022-05-03
 outlook.live.com##div#app > div > div[tabindex="-1"] + div > div:nth-of-type(2) div > div > div > div[data-max-width="2400"] + div
 ?affichage=
@@ -3481,6 +3481,7 @@ _campaign=$document
 ||miapex.com^$third-party
 ||micro-a.ru^
 ||microad.jp^$third-party
+||microad.net^
 ||microadinc.com^
 ||microsoft.com/library/svy/
 ||c.microsoft.com^
