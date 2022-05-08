@@ -239,7 +239,7 @@ _campaign=$document
 ! added in 2022-05-09 (5ch.net)
 5ch.net/js/ads.js|
 ! added in 2022-05-09
-/*/banner/*$image,domain=~nicovideo.jp
+/*/banner/*$image,domain=~nicovideo.jp|~event.rakuten.co.jp
 
 ://ad-cdn.
 ://adcl.
