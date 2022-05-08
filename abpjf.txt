@@ -101,8 +101,6 @@
 .showads_
 /owa.$script,domain=~outlook.live.com
 /js/top_ad
-! outlook.live.com added in 2022-05-03
-outlook.live.com##div#app > div > div[tabindex="-1"] + div > div:nth-of-type(2) div > div > div > div[data-max-width="2400"] + div
 ?affichage=
 ?affid=
 ?affid=$document
@@ -304,7 +302,23 @@ _campaign=$document
 ://offers.$popup
 
 ! ---------- URL Fragments END ----------
-! 
+!
+! Elements
+!
+! 5ch.net added in 2022-05-08
+5ch.net##body > div[style*="/mona.png"] > div[style*="position: fixed"]
+! nicovideo.jp added in 2022-05-02
+nicovideo.jp##.kokoku
+nicovideo.jp##[id^="ads_"]
+nicovideo.jp##[class*="ad-bannar"]
+dic.nicovideo.jp##div#right-column > div:nth-child(2)
+! outlook.live.com added in 2022-05-03
+outlook.live.com##div#app > div > div[tabindex="-1"] + div > div:nth-of-type(2) div > div > div > div[data-max-width="2400"] + div
+! yahoo.co.jp added in 2022-05-03
+www.yahoo.co.jp##article#Stream div > div > article:not([data-ual])
+!
+! Elements END
+!
 ! ########## TLD (Top Level Domain) with path START ##########
 ! ---------- TLD (Top Level Domain) with path END ----------
 ! 
@@ -3764,11 +3778,6 @@ _campaign=$document
 ||mtc.nhk.or.jp^
 ||mtcs.nhk.or.jp^
 ||nhncorp.jp^$third-party
-! nicovideo.jp added in 2022-05-02
-nicovideo.jp##.kokoku
-nicovideo.jp##[id^="ads_"]
-nicovideo.jp##[class*="ad-bannar"]
-dic.nicovideo.jp##div#right-column > div:nth-child(2)
 ||nielsen.com^$third-party
 ||nifty.com^*/match_com-module-
 ||business.nifty.com/articles/*/banner/$image,object,subdocument
@@ -5520,8 +5529,6 @@ dic.nicovideo.jp##div#right-column > div:nth-child(2)
 ||y8.com^$popup
 ||yabidos.com^
 ||yadro.ru^
-! yahoo.co.jp added in 2022-05-03
-www.yahoo.co.jp##article#Stream div > div > article:not([data-ual])
 ||yahoo.*/api/ovcm?
 ||yahoo.*/b?
 ||yahoo.*/c?
