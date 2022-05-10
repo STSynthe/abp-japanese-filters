@@ -2,7 +2,7 @@
 ! Homepage: https://github.com/STSynthe/abp-japanese-filters
 ! Title: ABP Japanese filters
 ! Expires: 1 days 
-! Version: 20220504.01
+! Version: 20220511.01
 !
 ! Last modified: 2021-05-26 20:51 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
@@ -327,6 +327,9 @@ www.yahoo.co.jp#?#div#ContentWrapper > main > div > div:-abp-has(> div[id^="ssp_
 ! yomiuri.co.jp added in 2022-05-08
 yomiuri.co.jp##div[class*="-ad-"]
 yomiuri.co.jp##div.ad
+! twitter.com added in 2022-05-11
+twitter.com#?#section > h1[id="accessible-list-1"] + div > div > div:-abp-has(> div > div[data-testid="placementTracking"])
+twitter.com#?#section > h1[id="accessible-list-0"] + div > div > div:-abp-has(> div > div > div:last-child > div > svg + span)
 !
 ! Elements END
 !
