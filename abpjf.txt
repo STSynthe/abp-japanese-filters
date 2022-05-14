@@ -73,8 +73,6 @@
 &rakuten_affili=
 &random=*&referrer=
 &random=*&size=1x1&
-&track_id=
-&track_id=$popup
 &tracker_id=
 &tracker_id=$popup
 &trackerid=
