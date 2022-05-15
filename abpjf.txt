@@ -1,8 +1,8 @@
-[Adblock Plus 3.1]
+[Adblock Plus 3.5]
 ! Homepage: https://github.com/STSynthe/abp-japanese-filters
 ! Title: ABP Japanese filters
 ! Expires: 1 days 
-! Version: 20220511.01
+! Version: 20220515.01
 !
 ! Last modified: 2021-05-26 20:51 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
@@ -235,7 +235,7 @@ _campaign=$document
 ! added in 2022-05-08 (5ch.net)
 5ch.net/js/top_ad.js|
 ! added in 2022-05-09 (試験中)
-/*/banner/*$image,domain=~nicovideo.jp|~event.rakuten.co.jp
+/*/banner/*$image,domain=~nicovideo.jp|~event.rakuten.co.jp|~affiliate.rakuten.co.jp
 ! added in 2022-05-12
 /^*logger*.js^$script
 /ads.js
@@ -333,6 +333,10 @@ twitter.com#?#section > h1[id="accessible-list-0"] + div > div > div:-abp-has(> 
 ##a[href*="//www.amazon.co.jp/"][href*="/exec/"][href*="-22/"]
 ##a[href*="//www.amazon.co.jp/"][href*="tag="][href*="-22"][href*="linkId="]
 ##a[href*="//amzn.to/"]
+! www.kobe-np.co.jp added in 2022-05-16
+kobe-np.co.jp##div#header > div.prAreaWrapper
+kobe-np.co.jp##div.ad
+kobe-np.co.jp#?#div#fixed-navi > div.banner:-abp-has(script)
 !
 ! Elements END
 !
@@ -2851,6 +2855,8 @@ twitter.com#?#section > h1[id="accessible-list-0"] + div > div > div:-abp-has(> 
 ||imitinjs.info^
 ||imkor.me^
 ||imlive.com^$third-party
+! impact-ad.jp added in 2022-05-16
+||impact-ad.jp^$domain=~feedback.impact-ad.jp
 ||impannon.com^
 ||imparfum.com^
 ||importantvideoupdate.com^$popup

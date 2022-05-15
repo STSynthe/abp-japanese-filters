@@ -65,6 +65,7 @@ ABP Japanese filtersとは別に
 ## others
 
 * [フィルター構文 Adblock Plus](https://help.eyeo.com/adblockplus/how-to-write-filters) - メモ用。
+* [ABP Test Pages](https://testpages.adblockplus.org/)
 
 [^1]: 1万行を超えてるためにパフォーマンス低下と誤爆、さらにuBlock Originからは[「ABP Japanese filtersは酷い」と酷評され](https://www.reddit.com/r/uBlockOrigin/comments/apby98/default_included_abp_japanese_filters_just_sucks/)、デフォルトのリストから外されている。
 [^2]: （2022年5月上旬時点）READMEにあるように主に自分用です。もちや雪のように外部の掲示板を立ててまで不具合対応するモチベーションはないです。ドネーションも今のところ考えてません。
