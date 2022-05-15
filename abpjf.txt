@@ -29,6 +29,8 @@
 @@||www.dlsite.com/vue/js/$script
 ! goo.ne.jp added in 2022-05-04
 @@||search.google.com^
+! affiliate.amazon.co.jp added in 2022-05-16
+@@||affiliate.amazon.co.jp$generichide,genericblock
 !
 ! ---------- Default white list END ----------
 !
