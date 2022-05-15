@@ -329,6 +329,10 @@ yomiuri.co.jp##div.ad
 ! twitter.com added in 2022-05-11
 twitter.com#?#section > h1[id="accessible-list-1"] + div > div > div:-abp-has(> div > div[data-testid="placementTracking"])
 twitter.com#?#section > h1[id="accessible-list-0"] + div > div > div:-abp-has(> div > div > div:last-child > div > svg + span)
+! www.amazon.co.jp added in 2022-05-15 (試験中)
+##a[href*="//www.amazon.co.jp/"][href*="/exec/"][href*="-22/"]
+##a[href*="//www.amazon.co.jp/"][href*="tag="][href*="-22"][href*="linkId="]
+##a[href*="//amzn.to/"]
 !
 ! Elements END
 !
