@@ -17,14 +17,15 @@
 ! ########## Temporary white list START ##########
 ! toku.yahoo.co.jp added in 2022-05-02
 @@||s.yimg.jp/images/points/toku$image
-! www.amazon.co.jp added in 2022-05-03
+! www.amazon.co.jp added in 2022-05-03 update 2022-05-17
 @@||www.amazon.co.jp/promotion/$xmlhttprequest
+@@||www.amazon.co.jp$generichide
 ! msftauth.net + outlook.live.com/owa/auth/ added in 2022-05-03 reference -> https://docs.microsoft.com/ja-jp/mem/configmgr/core/plan-design/network/internet-endpoints
 @@||msftauth.net$domain=live.com
 @@||outlook.live.com/owa/auth/
 @@||ext.live.nicovideo.jp/watch/
-! *.go.jp added in 2022-05-03
-@@||*.go.jp^
+! *.go.jp added in 2022-05-03 update 2022-05-17
+@@||go.jp^
 ! dlsite.com added in 2022-05-03
 @@||www.dlsite.com/vue/js/$script
 ! goo.ne.jp added in 2022-05-04
@@ -127,10 +128,6 @@
 ?clickTAG=
 ?clickTAG=$document
 ?clickTAG=$popup
-|http:*?ip=$third-party,domain=~youtube.com
-|https:*?ip=$third-party,domain=~youtube.com
-|http:*?lp=*id=$popup
-|https:*?lp=*id=$popup
 ^beacon-
 ^beacon.
 ^beacon^
@@ -243,13 +240,13 @@ _campaign=$document
 /ads.js
 
 ://ad-cdn.
-://adcl.
 ://ad1.
 ://ad2.
+://adcdn.
+://adcl.
 ://ads.
 ://ads1.
 ://ads2.
-://adcdn.
 ://aff-images.
 ://affiliates.
 ://amazlink.$third-party
@@ -265,10 +262,10 @@ _campaign=$document
 ://click.$document
 ://click.$popup
 ://click.$third-party
+://clickeu.$popup
 ://clicks.$document
 ://clicks.$popup
 ://clicks.$third-party
-://clickeu.$popup
 ://clk.$popup
 ://clk.$third-party
 ://creative.
@@ -331,14 +328,19 @@ yomiuri.co.jp##div.ad
 ! twitter.com added in 2022-05-11
 twitter.com#?#section > h1[id="accessible-list-1"] + div > div > div:-abp-has(> div > div[data-testid="placementTracking"])
 twitter.com#?#section > h1[id="accessible-list-0"] + div > div > div:-abp-has(> div > div > div:last-child > div > svg + span)
-! www.amazon.co.jp added in 2022-05-15 (試験中)
-##a[href*="//www.amazon.co.jp/"][href*="/exec/"][href*="-22/"]
-##a[href*="//www.amazon.co.jp/"][href*="tag="][href*="-22"][href*="linkId="]
+! www.amazon.co.jp added in 2022-05-15 update 2022-05-17 (試験中)
+##a[href*="//www.amazon.co.jp/exec/"][href*="-22"]
+##a[href*="//www.amazon.co.jp/"][href*="tag="][href*="-22"][href*="ref"]
 ##a[href*="//amzn.to/"]
 ! www.kobe-np.co.jp added in 2022-05-16
 kobe-np.co.jp##div#header > div.prAreaWrapper
 kobe-np.co.jp##div.ad
 kobe-np.co.jp#?#div#fixed-navi > div.banner:-abp-has(script)
+! weathernews.jp added in 2022-05-17
+weathernews.jp#$#override-property-read WNIAds.prototype.init_ads null
+weathernews.jp#$#override-property-read use_sticky_ad false
+! kyodo.co.jp added in 2022-05-17
+kyodo.co.jp#?#div#Sub > div.textwidget > div.box > a[onclick]:-abp-has(img)
 !
 ! Elements END
 !
@@ -445,7 +447,6 @@ kobe-np.co.jp#?#div#fixed-navi > div.banner:-abp-has(script)
 ||51yes.com^$third-party
 ||565882.com^$third-party
 ||5min.com^
-|http://i1.6.cn^
 ||600z.com^$third-party
 ||6c20c3lp.com^
 ||6dad.com^$third-party
@@ -531,10 +532,7 @@ kobe-np.co.jp#?#div#fixed-navi > div.banner:-abp-has(script)
 ||actuvoyance.com^
 ||acwebconnecting.com^$third-party
 ||acxiom-online.com^
-! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
-! |http://ad-ch.jp^
-! |https://ad-ch.jp^
-! ||ad-arata.com^$third-party
+||ad-arata.com^
 ||ad-cloud.jp^$third-party
 ||ad-hatena.jp^
 ||ad-hub.biz^
@@ -549,14 +547,9 @@ kobe-np.co.jp#?#div#fixed-navi > div.banner:-abp-has(script)
 ||ad-sys.com^$third-party
 ||ad-traffic.jp^
 ||ad-trak2.jp^$third-party
-! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
-! |http:*.ad-v.jp^
-! |https:*.ad-v.jp^
 ||ad-ya.net^
-|http:*.ad.ru^$third-party
-|https:*.ad.ru^$third-party
-|http://ad0*.ru^
-|https://ad0*.ru^
+||ad.ru^
+||ad0*.ru^
 ||ad1.ru^$third-party
 ||ad120m.
 ||ad120m.$popup
@@ -3137,8 +3130,8 @@ kobe-np.co.jp#?#div#fixed-navi > div.banner:-abp-has(script)
 ||kurysbjs.info^
 ||kusham.net^
 ||kutsulog.net^$third-party
-! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
-! ||kyoto-np.co.jp/koukoku/
+! kyodo.co.jp added in 2022-05-17
+||kyodo.co.jp/kyodopress_cms/wp-content/banners/
 ||la-bonne-idee.com^
 ||la-meilleure-solution-credit.com^
 ||labadon.com^
