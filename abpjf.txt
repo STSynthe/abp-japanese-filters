@@ -341,6 +341,10 @@ weathernews.jp#$#override-property-read WNIAds.prototype.init_ads null
 weathernews.jp#$#override-property-read use_sticky_ad false
 ! kyodo.co.jp added in 2022-05-17
 kyodo.co.jp#?#div#Sub > div.textwidget > div.box > a[onclick]:-abp-has(img)
+! huffingtonpost.* added in 2022-05-18
+huffingtonpost.jp,huffpost.com,huffingtonpost.co.uk,huffingtonpost.es,huffingtonpost.fr,huffingtonpost.gr,huffingtonpost.it,huffingtonpost.kr##div#left-nav + div[style]
+huffingtonpost.jp,huffpost.com,huffingtonpost.co.uk,huffingtonpost.es,huffingtonpost.fr,huffingtonpost.gr,huffingtonpost.it,huffingtonpost.kr##div[class*="ad"]:not(> script)
+huffingtonpost.jp##div.right-rail-sticky > div[style*="height"]
 !
 ! Elements END
 !
