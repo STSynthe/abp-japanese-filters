@@ -20,7 +20,7 @@ ABP Japanese filtersとは別に
 * [ABP filters](https://github.com/abp-filters/abp-filters-anti-cv) 
 * [EasyList](https://easylist.to) 
 
-以上購読を推奨します。ただ別の日本国内用フィルタを組み合わせるのはあまりおすすめしません。***重たくなる原因***になります。
+以上購読を推奨します。組み合わせ過ぎはおすすめしません。***重たくなる原因***です[^4]。
 
 ≫ <a href="abp:subscribe?location=https%3A%2F%2Fraw.githubusercontent.com%2FSTSynthe%2Fabp-japanese-filters%2Fmaster%2Fabpjf.txt">フィルタの購読（インストール）</a> ≪ - （[ソース](https://raw.githubusercontent.com/STSynthe/abp-japanese-filters/master/abpjf.txt)）
 
@@ -42,6 +42,7 @@ ABP Japanese filtersとは別に
 * このフィルタを利用したことによる何らかの障害を受けた。
 * 動作保証。
 * issuesや github.com 以外での対応[^2]。
+* やる気によるコミット低下あるいは停止。
 
 # Links
 
@@ -77,3 +78,4 @@ ABP Japanese filtersとは別に
 [^1]: 1万行を超えてるためにパフォーマンス低下と誤爆、さらにuBlock Originからは[「ABP Japanese filtersは酷い」と酷評され](https://www.reddit.com/r/uBlockOrigin/comments/apby98/default_included_abp_japanese_filters_just_sucks/)、デフォルトのリストから外されている。
 [^2]: （2022年5月中旬時点）READMEにあるように元は自分用でした。以後もissues以外での不具合対応するモチベーションはないです。ドネーションも今のところ考えてません。
 [^3]: （2022年5月上旬時点）「**もちフィルタは、EasyListと豆腐フィルタから必要最小限のフィルタを抜き出したもの**」としてる。真偽は兎も角、[EasyListはライセンスを明確](https://easylist.to/pages/licence.html)にしている…
+[^4]: ジェネリックや正規表現、拡張機能を多用はパフォーマンス低下確実です。
