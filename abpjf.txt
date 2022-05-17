@@ -271,11 +271,9 @@ _campaign=$document
 ://creative.
 ://creative.$document
 ://creative.$popup
-://creative.$third-party
 ://creatives.
 ://creatives.$document
 ://creatives.$popup
-://creatives.$third-party
 ://d.*/l/load.js^$script,third-party
 ://d.*/r/rd.html^$document
 ://delivery.$third-party
@@ -5155,7 +5153,6 @@ kyodo.co.jp#?#div#Sub > div.textwidget > div.box > a[onclick]:-abp-has(img)
 ||tyrellsys.com^$third-party
 ||tytbydettraff.ru^
 ||uchmuk.com^
-||uclead.com^
 ||ucoz.$popup
 ||ucoz.$third-party
 ||udmserve.net^
@@ -5164,15 +5161,10 @@ kyodo.co.jp#?#div#Sub > div.textwidget > div.box > a[onclick]:-abp-has(img)
 ||undertone.com^$third-party
 ||ubcpm.com^
 ||udarem.com^
-||udedokei-catalog.com^$third-party
-||ugleder.ru^
 ||ugo2.jp^$third-party
 ||uimserv.net^
-||ukrotsel.ru^
 ||uliza.jp^$third-party
 ||ultimedia.com^$third-party
-||ultradomendop.ru^
-||ultradopoln.ru^
 ||ultrapay.net^$third-party
 ||umeng.$third-party
 ||underclick.ru^
@@ -5197,16 +5189,11 @@ kyodo.co.jp#?#div#Sub > div.textwidget > div.box > a[onclick]:-abp-has(img)
 |http:*.up.ru^
 |https:*.up.ru^
 ||update-apps.com^
-||update-software.net$popup
 ||updatemybrowser.net$popup
-||updaterspro.com^$popup
-||updaterspro.com^$third-party
-||upgradesrv.net$popup
 ||uploadedtab.com^
 ||uploadedtab.com^$popup
 ||uploadstation.com/styles/popup.
 ||urchin.com^$third-party
-||urgent-pc.info$popup
 ||urlcash.$document
 ||urlcash.$popup
 ||urlcash.$third-party
@@ -5220,14 +5207,10 @@ kyodo.co.jp#?#div#Sub > div.textwidget > div.box > a[onclick]:-abp-has(img)
 ! ||userlocal.jp/b
 ||userlocal.jp^$third-party
 ||api.social.userlocal.jp/apis/
-||ushopcomp.com^
-||uspovo.ru^
 ||ustream.tv^*/images/softbank-
 ||ustream.tv^*/images/special/
 ||ustream.tv/*/games/api/common/*.json?ts=$xmlhttprequest
 ||ustream.tv/fukuyama/
-||d.ustream.tv^
-||d-ssl.ustream.tv^
 ! Integrated into ||ox-d. , Jun 2, 2012
 ! ||ox-d.ustream.tv
 ! Integrated into ||ox-i. , Jun 2, 2012
@@ -5240,27 +5223,15 @@ kyodo.co.jp#?#div#Sub > div.textwidget > div.box > a[onclick]:-abp-has(img)
 ||utherverse.com^$third-party
 ||utilient.com^
 ||utilieur.com^
-||utrehter.com^
-||utube28.com^$third-party
 ||v-bates.com^$third-party
 ||v2cigs.com^$third-party
-||v976zk4.com^$popup
 ||vador.com^$popup
-||vagos.es/recursos/get.$script
 ||vatizon.com^
-||venicianu.com^
 ||veroui.com^
-||vftion.com^
 ||viafoura.net^$third-party
-||virtsex.net^
-||wf1.vagos.es^
-||valentinehookup.com^$popup
 ||valuecommerce.com^$third-party
 ||vatgia.com^
 ||vava-soft.com^
-||vbatdpjs.info^
-||vbattbjs.info^
-||vcm.jp^$third-party
 ||vcmedia.vn^$third-party
 ||vdna-assets.com^
 ! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
@@ -5285,20 +5256,16 @@ kyodo.co.jp#?#div#Sub > div.textwidget > div.box > a[onclick]:-abp-has(img)
 ||verticalnetwork.de^$third-party
 ||veruta.com^$third-party
 ||veryselect.com^
-||verzala.ru^
 ||videoegg.com^
 ! False positive at vgtv.no . More concrete rule is required: 2011-07-23
 ! ||videoplaza.tv^
 -advideum.videoplaza.tv^
-||videos-de-facebook.com^$third-party
 ||videoclick.ru^$third-party
 ||videoclik.ru^
-||videos-x-gratuit.com^
 ||videosclubx.com^
 ||videostrip.com^
 ||videosz.com^$third-party
 ||videozer.com^$third-party
-||vidsdelivery.com^
 ||vidustal.com^
 ||vietad.vn^$third-party
 ||vietalle.com^
@@ -5306,11 +5273,7 @@ kyodo.co.jp#?#div#Sub > div.textwidget > div.box > a[onclick]:-abp-has(img)
 ||viewheatmap.com^
 ||viewsoft.co^
 ||viglink.com^$third-party
-||t.vimeo.com^
 ||vindicosuite.com^
-||vinregle.com^
-||vinumr.com^
-||vipscasinodirectory.com^
 ||viptizer.com^$third-party
 ||virtuagirlhd.com^$third-party
 ||virusbuster.jp^$popup
@@ -5319,15 +5282,10 @@ kyodo.co.jp#?#div#Sub > div.textwidget > div.box > a[onclick]:-abp-has(img)
 ||visiblemeasures.com^$third-party
 ||visio-cokine.com^
 ||visio-love.com^
-||visio-rose.com^
 ||visio-tchat.com^
-||visio-webcam.com^
-||visio-xxx.com^
 ||visioflirt.com^
 ||visiokiss.com^
 ||visiolove.com^
-||visiowebcam.com^
-||visioxxx.com^
 ||visistat.com^$third-party
 ||visit-x.net^$third-party
 ||visitor-track.com^$third-party
@@ -5337,10 +5295,7 @@ kyodo.co.jp#?#div#Sub > div.textwidget > div.box > a[onclick]:-abp-has(img)
 ||visualwebsiteoptimizer.com^$third-party
 ||vitalads.net^$third-party
 ||vitruvianleads.com^$third-party
-||vizejs.info^
 ||vk.com^$domain=~vk.com|~vkontakte.ru
-||vkappcollection.ru^
-||vklsjdnfsdkjb.net^
 ||vkontakte.ru^$domain=~vk.com|~vkontakte.ru
 ||vmi.it^$popup
 ||voicefive.com^$third-party
@@ -5350,15 +5305,9 @@ kyodo.co.jp#?#div#Sub > div.textwidget > div.box > a[onclick]:-abp-has(img)
 ||voluum*.com^$document
 ||voluumtrk.com^
 ||votetoda.com^
-||votre-aide-pret.com^
-||votre-devis-credit.com^
-||voyeurparadize.com^
 ||voyeurszone.com^
 ||vq1015entry.com^$third-party
 ||vs.com^$third-party
-||vsp-online.com^
-||vtkea.net^
-||vuiads.net^
 ||vizury.com^$third-party
 ||w55c.net^$third-party
 ||w5radass.com^
@@ -5374,8 +5323,6 @@ kyodo.co.jp#?#div#Sub > div.textwidget > div.box > a[onclick]:-abp-has(img)
 ||washingtonpost.com^*/site_traffic/
 ||watchmygf.net^$popup
 ||watchmygf.net^$third-party
-||waveview.info^
-||wawa-studio.com^
 ||wayohoo.com^*-banner.
 ||wb-rotator.com^
 ||we-spread.com^
@@ -5384,28 +5331,14 @@ kyodo.co.jp#?#div#Sub > div.textwidget > div.box > a[onclick]:-abp-has(img)
 ! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
 ! ||web3-ads.com^$popup
 ||webantenna.info^$third-party
-||webcam-facile.com^
-||webcam-folie.com^
-||webcam-rose.com^
-||webcam-visio.com^
-||webcam-voisines.com^
 ||webcamcoquine.com^
-||webcamfolie.com^
 ||webcams2424.com^
-||webcamvisio.com^
-||webdo.co.jp^$third-party
-||webgiantmedia.com^$third-party
-||webkam.fr^
 ||rws.weblio.jp^$third-party
 ||weblmi.com^
 ||webmasterplan.com^
 ||weborama.fr^$third-party
 ||webovernet.com^
-||webpagescripts.net^
 ||webpagetest.org/custom/
-||webprotectjs.info^$third-party
-||webrotator.net^
-||websearchplusjs.info^
 ||webspectator.com^$third-party
 ||webstats4u.com^
 ||websteroidsapp.com^$third-party
@@ -5416,18 +5349,13 @@ kyodo.co.jp#?#div#Sub > div.textwidget > div.box > a[onclick]:-abp-has(img)
 ||webtracky.com^
 ||webtrends.com^$third-party
 ||webtrendslive.com^$third-party
-||adult-monster.webwindow.jp^$third-party
 ||wec.co.kr^$third-party
 ||wedgeac.com^
 ||wekiss.com^$third-party
-||weropiy.com^
 ||wespoland.jp^$third-party
-||wh5kb0u4.com^
 ||whaleads.com^
 ||whibd.com^
 ||whibr.com^
-||whiterabbitproducts.com^$third-party
-||whitinjs.info^
 ||whoson.com^$third-party
 ||widdit.com^$third-party
 ||widgeo.net^$third-party
@@ -5437,36 +5365,23 @@ kyodo.co.jp#?#div#Sub > div.textwidget > div.box > a[onclick]:-abp-has(img)
 ! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
 ! ||wikia-beacon.com/__track/
 ||wikiodeliv.com^
-||pr.wikiwiki.jp^
 ||williamhill.
 ||williamhill.$document
 ||williamhill.$popup
-||1app.blob.core.windows.net^
-||windows-codec.com^$popup
 ||winmycar.de^$popup
 ||winmypc.$popup
 ||winmytv.de^$popup
 ||winwin.co.il^$third-party
-||wiredboost.info^
-||ad.wiredvision.jp^
-||wise-soft.net^
 ||with2.net^$third-party
 ||wixawin.com^$third-party
 ||wizebar.com^$third-party
 ||wlresources.com^
-||wmh0.com^$third-party
 ||woniu666.com^$third-party
-||woopieapi.com/ad/
-||woopieapi.com/js/wa/
-||log.woopieapi.com^
 ||woopra.com^$third-party
 ||woopra-ns.com^$third-party
-||wop-love.com^
 ||stats.wordpress.com^
 ||worldlogger.com^
 ||worldnow.com/global/js/vendor/
-! ||worldssl.net^$third-party
-||icm.r.worldssl.net^
 ||worthathousandwords.com^$third-party
 ||wowzio.com^$third-party
 ||wowzio.net^$third-party
@@ -5476,9 +5391,6 @@ kyodo.co.jp#?#div#Sub > div.textwidget > div.box > a[onclick]:-abp-has(img)
 ||ker.www.wp.pl^
 ||wpadsvr.com^
 ||wpadsvr.com^$popup
-||wpinspirerchat.ru^
-||wptstatic.net/custom/
-||wrenkontre.com^
 |http:*.ws.md^$third-party
 |http://ws.md^$third-party
 |https:*.ws.md^$third-party
@@ -5489,24 +5401,17 @@ kyodo.co.jp#?#div#Sub > div.textwidget > div.box > a[onclick]:-abp-has(img)
 ||wtp101.com^
 ||wts-rotator.
 ||wunderloop.net^
-||wwop-love.com^
-||wwv4ez0n.com^
 ||www.co.cc^$third-party
-||wwwmobiroll.com^
 ||wwwpromoter.com^$popup
 ||wwwpromoter.com^$third-party
 ||wxdjs.info^
 ||wysistat.com^$third-party
 ||wyunion.com^$third-party
-||wzaxvlgdrb.ru^
-||x-asiatique.net^
 ||x-casino.net^$popup
 ||x-lift.jp^$third-party
 ||x19network.com^
 ||xaid.jp^$third-party
-||xbqnmleyze.ru^
 ||xcams.com^$third-party
-||xdnok.com^
 ||xdwan.com^$third-party
 ||xertive.com^
 ||xflirt.com^$third-party
@@ -5515,12 +5420,9 @@ kyodo.co.jp#?#div#Sub > div.textwidget > div.box > a[onclick]:-abp-has(img)
 ||xgraph.com^$third-party
 ||xgraph.net^$third-party
 ||xhamster.com/js/mediagra.$script
-||share7.xii.jp^
 ||xiti.com^
-||xlanding.com.ar^$popup
 ||xlisting.$third-party
 ||xlovecam.com^$popup
-||xmasdom.com^
 ||xmatch.com^$third-party
 ||xmax.jp^$third-party
 ||xmlrequest.info^
@@ -5615,7 +5517,6 @@ kyodo.co.jp#?#div#Sub > div.textwidget > div.box > a[onclick]:-abp-has(img)
 ||im.yahooapis.
 ||shopping.yahooapis.$subdocument
 ||yandeg.ru^$third-party
-||yandepit.com^
 ||an.yandex.ru^
 ||awaps.yandex.ru^
 ||bs.yandex.ru^
@@ -5624,13 +5525,9 @@ kyodo.co.jp#?#div#Sub > div.textwidget > div.box > a[onclick]:-abp-has(img)
 ||metrika.yandex.ru^$third-party
 ||mc.yandex.ru^
 ||yabs.yandex.
-||yandex.sc^
 ||yandex.st^$domain=~yandex.ru|~yandex.ua
-||yangot.com^
 ||yardbarker.com^$third-party
-||yb0t.com^
 ||yeabble.com^$third-party
-||yellowmedia.biz^$third-party
 ||yfum.com^
 ||yidop.com^
 ||yieldads.com^$third-party
@@ -5684,19 +5581,14 @@ kyodo.co.jp#?#div#Sub > div.textwidget > div.box > a[onclick]:-abp-has(img)
 ||yontoo.com^$third-party
 ||yooclick.com^$popup
 ||you-bar.com^$third-party
-||youformobile.ru^
 ||youku.com/*/js/hzClick.
 ||youku.com^*/js/popup.
 ||atm.youku.com^
 ||lstat.youku.com^
 ||youradexchange.com^$popup
 ||youradexchange.com^$third-party
-||youradslab.com^
 ||yourfirstcheapshop.com^$third-party
 ||yourjavascript.com^$third-party
-||youtopry.com^
-||youwatchtab.com^
-||youwatchtab.com^$popup
 !False Positives with dammy 1x1 placeholders for css spriting
 ! ||ytimg.com/yt/img/pixel-
 ! ||ytimg.com^*/swfbin/ad-
@@ -5705,8 +5597,6 @@ kyodo.co.jp#?#div#Sub > div.textwidget > div.box > a[onclick]:-abp-has(img)
 ||ytimg.com^*_background_$image,object,subdocument
 ||ytimg.com^*_banner.$image,object,subdocument
 ||ytimg.com^*_banner_$image,object,subdocument
-||yuftabu.ru^
-||yustitum.ru^
 ||yyv.co^$popup
 ||z5x.net^$third-party
 ||zanox.com^$third-party
@@ -5715,9 +5605,7 @@ kyodo.co.jp#?#div#Sub > div.textwidget > div.box > a[onclick]:-abp-has(img)
 ! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
 ! ||zanox-affiliate.de^$third-party
 ||zdenochary.com^
-||bwp.zdnet.com^
 ||japan.zdnet.com/media/*/banner/jinzai_*.gif
-||adcl.japan.zdnet.com^
 ||zed.com^$third-party
 ||zedo.com^
 ||zedo.com^$document
@@ -5731,36 +5619,23 @@ kyodo.co.jp#?#div#Sub > div.textwidget > div.box > a[onclick]:-abp-has(img)
 ||zeroredirect.com^
 ||zeroredirect1.com^
 ||zeroredirect2.com^
-||zeroredirect3.com^
-||zeroredirect4.com^
 ||zeroredirect5.com^
-||zeroredirect6.com^
-||zeroredirect7.com^
 ||zeroredirect8.com^
-||zeroredirect9.com^
 ||zeusclicks.com^
 ||zigotop.com^
-||zilionfast.in^
 ||zillow.com^$third-party
 ||zillowstatic.com^$domain=~zillow.com
 ||zimg.jp^
-||zinzimo.info^$third-party
 ||ziyu.net^$third-party
 ||zmctrack.net^
 ||zn0s.com^
 ||znews.su^$third-party
 ||zog.link^
-||zone-assurance.com^
 ||zone-finance.com^
-||zone-loisir.com^
-||zone-pratique.com^
 ||zone-voyance.com^
 ||zontrans.com^
-||zpk200.com^
-||zqyxpllyma.ru^
 ||zucks.jp^
 ||zwaar.org^
-||zyumicher.ru^
 ! ========== ValueClick alias domains: 216.34.207.62 START ==========
 ||afcyhf.com^
 ||anrdoezrs.net^
