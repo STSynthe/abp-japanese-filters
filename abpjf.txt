@@ -31,7 +31,9 @@
 ! goo.ne.jp added in 2022-05-04
 @@||search.google.com^
 ! affiliate.amazon.co.jp added in 2022-05-16
-@@||affiliate.amazon.co.jp$generichide,genericblock
+@@||affiliate.amazon.co.jp^$generichide,genericblock
+! yahoo-mbga.jpadded in 2022-05-18
+@@||promo.yahoo-mbga.jp^$domain=yahoo-mbga.jp
 !
 ! ---------- Default white list END ----------
 !
@@ -322,6 +324,8 @@ outlook.live.com##div#app > div > div[tabindex="-1"] + div > div:nth-of-type(2) 
 www.yahoo.co.jp##article#Stream div > div > article:not([data-ual])
 ! yahoo.co.jp added in 2022-05-09
 www.yahoo.co.jp#?#div#ContentWrapper > main > div > div:-abp-has(> div[id^="ssp_ydn_"])
+! mail.yahoo.co.jp added in 2022-05-18
+mail.yahoo.co.jp#?#div.mainColumn > div[class]:last-child:-abp-has(> div[id*="ads"])
 ! yomiuri.co.jp added in 2022-05-08
 yomiuri.co.jp##div[class*="-ad-"]
 yomiuri.co.jp##div.ad
@@ -345,6 +349,8 @@ kyodo.co.jp#?#div#Sub > div.textwidget > div.box > a[onclick]:-abp-has(img)
 huffingtonpost.jp,huffpost.com,huffingtonpost.co.uk,huffingtonpost.es,huffingtonpost.fr,huffingtonpost.gr,huffingtonpost.it,huffingtonpost.kr##div#left-nav + div[style]
 huffingtonpost.jp,huffpost.com,huffingtonpost.co.uk,huffingtonpost.es,huffingtonpost.fr,huffingtonpost.gr,huffingtonpost.it,huffingtonpost.kr##div[class*="ad"]:not(> script)
 huffingtonpost.jp##div.right-rail-sticky > div[style*="height"]
+! afpbb.com added in 2022-05-18
+afpbb.com##aside.bnr
 !
 ! Elements END
 !
