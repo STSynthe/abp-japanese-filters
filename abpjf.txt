@@ -376,7 +376,6 @@ afpbb.com##aside.bnr
 ||*-mmm.net^$popup
 ||*-terraclicks.com^$document
 ||*adexchange.com^$document
-||*adexchange.com^$popup
 ||*tab.com/?*&subid=
 ||*tab.com/click.gif?landing_id=
 ||00h10.com^
@@ -3729,7 +3728,6 @@ afpbb.com##aside.bnr
 ||nan.co.jp^$third-party
 ||nanoadbite.com^
 ||nanoadexchange.com^
-||nanoadexchange.com^$popup
 ||nanovisor.io^
 ||nasads.com^
 ||nasecure.com^
@@ -4208,7 +4206,6 @@ afpbb.com##aside.bnr
 ||pulseadnetwork.com^
 ||pulseadnetwork.com^$popup
 ||pureadexchange.com^
-||pureadexchange.com^$popup
 ||pus2011.com^
 ||push7.jp^$third-party
 ||pushmejs.com^
@@ -4317,9 +4314,6 @@ afpbb.com##aside.bnr
 ||redichat.com^
 ||redirecting.ws^
 ||redirectingat.com^$third-party
-||redirectvoluum.com^
-||redirectvoluum.com^$document
-||redirectvoluum.com^$popup
 ||redrct.site^
 ||redsinjs.info^
 ||redtram.com^$third-party
@@ -5059,15 +5053,12 @@ afpbb.com##aside.bnr
 ||tracksitetraffic1.com^
 ||trackstatsnow.com^
 ||trackstormalert.com^$third-party
-||trackvoluum.com^
-||trackvoluum.com^$popup
 ||trackwind.com^$third-party
 ||trackword.biz^$third-party
 ||trackword.net^$third-party
 ||tractionize.com^
 ||trade7.ru^$third-party
 ||tradeadexchange.com^
-||tradeadexchange.com^$popup
 ||tradedoubler.com^$third-party
 ||tradepub.com^$third-party
 ||traders.co.jp/image/banner/$domain=traders.co.jp
@@ -5309,8 +5300,6 @@ afpbb.com##aside.bnr
 ||vkontakte.ru^$domain=~vk.com|~vkontakte.ru
 ||vmi.it^$popup
 ||voicefive.com^$third-party
-||*voluum.com^
-||*voluum.com^$document
 ||voluum*.com^
 ||voluum*.com^$document
 ||voluumtrk.com^
@@ -5595,7 +5584,6 @@ afpbb.com##aside.bnr
 ||youku.com^*/js/popup.
 ||atm.youku.com^
 ||lstat.youku.com^
-||youradexchange.com^$popup
 ||youradexchange.com^$third-party
 ||yourfirstcheapshop.com^$third-party
 ||yourjavascript.com^$third-party
