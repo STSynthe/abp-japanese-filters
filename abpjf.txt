@@ -375,7 +375,6 @@ afpbb.com##aside.bnr
 ||*-mmm.net^
 ||*-mmm.net^$popup
 ||*-terraclicks.com^$document
-||*adexchange.com^$document
 ||*tab.com/?*&subid=
 ||*tab.com/click.gif?landing_id=
 ||00h10.com^
@@ -3727,7 +3726,6 @@ afpbb.com##aside.bnr
 ||nan-net.com^$third-party
 ||nan.co.jp^$third-party
 ||nanoadbite.com^
-||nanoadexchange.com^
 ||nanovisor.io^
 ||nasads.com^
 ||nasecure.com^
@@ -4205,7 +4203,6 @@ afpbb.com##aside.bnr
 ||pulse360.com^$third-party
 ||pulseadnetwork.com^
 ||pulseadnetwork.com^$popup
-||pureadexchange.com^
 ||pus2011.com^
 ||push7.jp^$third-party
 ||pushmejs.com^
@@ -5058,7 +5055,6 @@ afpbb.com##aside.bnr
 ||trackword.net^$third-party
 ||tractionize.com^
 ||trade7.ru^$third-party
-||tradeadexchange.com^
 ||tradedoubler.com^$third-party
 ||tradepub.com^$third-party
 ||traders.co.jp/image/banner/$domain=traders.co.jp
@@ -5584,7 +5580,6 @@ afpbb.com##aside.bnr
 ||youku.com^*/js/popup.
 ||atm.youku.com^
 ||lstat.youku.com^
-||youradexchange.com^$third-party
 ||yourfirstcheapshop.com^$third-party
 ||yourjavascript.com^$third-party
 !False Positives with dammy 1x1 placeholders for css spriting
