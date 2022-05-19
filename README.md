@@ -2,14 +2,20 @@
 
 私（STSynthe a.k.a. えむ）個人が手入れしている日本国内Adblock Plus用フィルタです。
 
-元のABP Japanese filtersは問題があり[^badboy]、個人的に気になる部分の排除・最適化しました。今まで自分用として使っていましたが、現在（2022年5月中旬）はこれを共有して使うのは自由です[^yaruki]。
+元のABP Japanese filtersは問題があり[^badboy]、個人的に気になる部分の排除・最適化しました。今まで自分用として使っていましたが、現在（2022年5月中旬）はこれを共有して使うのは自由です。
+
+***私への連絡は「[issues](https://github.com/STSynthe/abp-japanese-filters/issues)」にて***。<span lang="en">***Contact me at "[issues](https://github.com/STSynthe/abp-japanese-filters/issues)"***.</span>
 
 # 方針
 
 * 短いフィルタになるべく頼らない
-* テキスト広告を（誹謗、中傷、差別、などの目に余るほどでもなければ）排除しない
-* エンターテイメント的な広告、慎ましい自社広告を排除しない（例：ニコニ広告、アニメなどの応援バナーなど、見かけなくなったけど…）
-* 過剰で無駄なスペースが縦に広がっているエレメントの非表示（積極的な取り組みをしない）
+* 広告主がお金を払って掲載しているコンテンツをいろんな言い方があるがとりあえず「広告」と呼び、それを基本ブロックの対象とする
+* 慎ましいテキスト広告をできる限り排除しない
+* 慎ましい自社広告をできる限り排除しない
+* エンターテイメント的な広告をできる限り排除しない（例：ニコニ広告、見返りのないバナーリンク、人道的もしくは[人権道徳的](https://www.youtube.com/watch?v=GjVCYhpkJiA)な広告など）
+* 解析系、トラッキング系のコードをブロックする
+* 広告が抜けた事による過剰で無駄なスペースが広がっているエレメントの非表示（ただし積極的な取り組みをしない）
+* 突発的に発生する有害（フィッシング、スパイウェアなど）なサイトは排除しない[^harmful]
 
 # 購読
 
@@ -18,9 +24,9 @@ ABP Japanese filtersとは別に
 * [ABP filters](https://github.com/abp-filters/abp-filters-anti-cv) 
 * [EasyList](https://easylist.to) 
 
-以上購読を推奨します。組み合わせ過ぎはおすすめしません。***重たくなる原因***です[^performance]。
+以上のフィルタを合わせて購読することを推奨しています。ただし組み合わせ過ぎはおすすめしません。***重たくなる原因***です[^performance]。
 
-≫ <a href="abp:subscribe?location=https%3A%2F%2Fraw.githubusercontent.com%2FSTSynthe%2Fabp-japanese-filters%2Fmaster%2Fabpjf.txt">フィルタの購読（インストール）</a> ≪ - （[ソース](https://raw.githubusercontent.com/STSynthe/abp-japanese-filters/master/abpjf.txt)）
+≫ <a href="https://subscribe.adblockplus.org?location=https%3A%2F%2Fraw.githubusercontent.com%2FSTSynthe%2Fabp-japanese-filters%2Fmaster%2Fabpjf.txt&amp;title=ABP%20Japanese%20filters">Subscribe - フィルタの購読（インストール）</a> ≪ - （[ソース](https://raw.githubusercontent.com/STSynthe/abp-japanese-filters/master/abpjf.txt)）
 
 # 問題報告
 
@@ -54,7 +60,7 @@ ABP Japanese filtersとは別に
 
 ## 本家にPullリクエストした方が今使ってる方々へ貢献できるのでは？
 
-方針の違いによりしません。
+更新が滞っていることと、方針の違いによりしません。
 
 * https://github.com/k2jp/abp-japanese-filters/wiki/FAQ
 * https://github.com/k2jp/abp-japanese-filters/wiki/Support_Policy
@@ -69,7 +75,7 @@ ABP Japanese filtersとは別に
 
 ## アマゾン アソシエイト（アフィリエイト）のリンクが消されている
 
-単純な「広告」ではありますが、それ以上にアマゾンの規約に反するなど、それら多く見かけるようになりました。それらを総合的に判断し非表示を決定しました。
+単純な「広告」ではありますが、それ以上にアマゾンの規約に反するなど、それら多く見かけるようになりました[^amazon]。それらを総合的に判断し非表示を決定しました。
 
 表示が望みであれば、ホワイトリストにドメインを入れるだけで簡単復活です。
 
@@ -123,5 +129,7 @@ YouTubeの視聴履歴はプライバシー侵害にあたると疑問を抱く�
 [^badboy]: 1万行を超えてるためにパフォーマンス低下と誤爆、さらにuBlock Originからは[「ABP Japanese filtersは酷い」と酷評され](https://www.reddit.com/r/uBlockOrigin/comments/apby98/default_included_abp_japanese_filters_just_sucks/)、デフォルトのリストから外されている。
 [^motivation]: （2022年5月中旬時点）READMEにあるように元は自分用でした。以後もissues以外での不具合対応するモチベーションはないです。ドネーションも今のところ考えてません。
 [^T.Goda]: （2022年5月上旬時点）「**もちフィルタは、EasyListと豆腐フィルタから必要最小限のフィルタを抜き出したもの**」としてる。真偽は兎も角、[EasyListはライセンスを明確](https://easylist.to/pages/licence.html)にしている…
-[^performance]: ジェネリックや正規表現、拡張機能の多用はパフォーマンス低下に繋がることが確実です。
+[^performance]: ジェネリックや正規表現、拡張機能の多用はパフォーマンス低下に繋がることが確実です。またEasyListだけで6万行超えています。
 [^yaruki]: 「やる気低下」というコミットが次第に露呈するはずです。
+[^amazon]: [Amazonアソシエイト・プログラム運営規約](https://affiliate.amazon.co.jp/help/operating/agreement) から。とくに5章「乙がアソシエイトであることの表示」ができてない個人・企業のサイトが多くまた卑劣であることが主な理由です。
+[^harmful]: これらはセキュリティーツールが行う仕事（しかも対応が早い）で、私が行動を起こすことはありません。
