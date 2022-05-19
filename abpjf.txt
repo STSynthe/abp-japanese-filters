@@ -1,8 +1,8 @@
-[Adblock Plus 3.5]
+[Adblock Plus 3.10]
 ! Homepage: https://github.com/STSynthe/abp-japanese-filters
 ! Title: ABP Japanese filters
 ! Expires: 1 days 
-! Version: 20220515.01
+! Version: 20220520.01
 !
 ! Last modified: 2021-05-26 20:51 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
@@ -349,6 +349,9 @@ huffingtonpost.jp,huffpost.com,huffingtonpost.co.uk,huffingtonpost.es,huffington
 huffingtonpost.jp##div.right-rail-sticky > div[style*="height"]
 ! afpbb.com added in 2022-05-18
 afpbb.com##aside.bnr
+! ameblo.jp added in 2022-05-20
+ameblo.jp#?#div:-abp-has(> div[data-aid][style*="height"])
+ameblo.jp#$#freeze-element div#app ''
 !
 ! Elements END
 !
@@ -1117,19 +1120,8 @@ afpbb.com##aside.bnr
 ||simple-cdn.s3.amazonaws.com^
 ||videosfr.s3.amazonaws.com^
 ||amazon-cornerstone.com^
-||ameba.jp/adcross/
-! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
-! ||ameba.jp/analytics/
-||ameba.jp/common_style/js/user/dropdown*$script
-||act.ameba.jp^
-||ad.ameba.jp^
-||adstatic.ameba.jp^
+||ad.pr.ameba.jp^
 ||ln.ameba.jp^
-||spstatic.ameba.jp^
-||vc.ameba.jp^
-||amebame.com/pub/
-||ameblo.jp/accesslog/
-||measure.ameblo.jp^
 ||sy.ameblo.jp^
 ||amiami.jp^$third-party
 ||amimg.net^
