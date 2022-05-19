@@ -1108,6 +1108,7 @@ ameblo.jp#$#freeze-element div#app ''
 ||amazonaws.com/sniffer/
 ||amazonaws.com/tapjoy/
 ||amazonaws.com/totango-cdn/
+||ssl-images-amazon.com/images/*/DAsf-
 ||6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com^
 ||analyticsengine.s3.amazonaws.com^
 ||cd-ladsp-com.s3.amazonaws.com^
@@ -1657,11 +1658,6 @@ ameblo.jp#$#freeze-element div#app ''
 ! False positive with harmless scripts reported at [Issue 40](https://github.com/k2jp/abp-japanese-filters/issues/40) , Feb 21, 2019
 ! ||ajax.cloudflare.com^
 ||cloudflare.solutions^
-||cloudfront.net^$popup
-||cloudfront.net/js/reach.$script
-||cloudfront.net/lps
-||cloudfront.net/sf/DAsf-
-||cloudfront.net/sf/sf-
 ||d13xa9aa1tga7e.cloudfront.net^
 ||d1447tq2m68ekg.cloudfront.net^
 ||d1798l6lhp8h4d.cloudfront.net^
