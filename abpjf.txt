@@ -32,8 +32,10 @@
 @@||search.google.com^
 ! affiliate.amazon.co.jp added in 2022-05-16
 @@||affiliate.amazon.co.jp^$generichide,genericblock
-! yahoo-mbga.jpadded in 2022-05-18
+! yahoo-mbga.jp added in 2022-05-18
 @@||promo.yahoo-mbga.jp^$domain=yahoo-mbga.jp
+! sns.petitgift.com added in 2022-05-22
+@@||sns.petitgift.com/campaigns/$popup
 !
 ! ---------- Default white list END ----------
 !
@@ -1121,7 +1123,8 @@ ameblo.jp#$#freeze-element div#app ''
 ||simple-cdn.s3.amazonaws.com^
 ||videosfr.s3.amazonaws.com^
 ||amazon-cornerstone.com^
-||ad.pr.ameba.jp^
+! ad.pr.ameba.jp 要審議（理由：自社プロモーションの可能性、news.ameba.jpの不具合） https://github.com/STSynthe/abp-japanese-filters/commit/c6a654538d6fb669f58ca7f08073b44489a340ab#r74050657 update 2022-05-22
+! ||ad.pr.ameba.jp^
 ||ln.ameba.jp^
 ||sy.ameblo.jp^
 ||amiami.jp^$third-party
