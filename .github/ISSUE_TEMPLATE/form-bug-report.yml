@@ -7,7 +7,7 @@ assignees:
 body:
   - type: markdown
     attributes:
-      value: "報告ありがとうございます。見出しの横に「*」の印がついたフォームは入力必須です。\r\nページ下部の「Submit new issue」ボタンで投稿できます。"
+      value: "> **Note**\r\n> 報告ありがとうございます。見出しの横に「*」の印がついたフォームは入力必須です。\r\n> ページ下部の「Submit new issue」ボタンで投稿できます。"
   - type: textarea
     id: url
     attributes:
