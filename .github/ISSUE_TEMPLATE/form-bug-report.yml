@@ -1,6 +1,6 @@
 name: "バグレポート - Bug report"
-description: "このフィルタが引き起こしている問題を報告します - Create a report to help us improve"
-title: "バグレポート - Bug report"
+description: "このフィルタが引き起こしている問題を報告します（「Get started」をクリックしてフォームを展開する👉） - Create a report to help us improve"
+title: "なにかおかしいよ（変更してお使い下さい）"
 labels: ["bug"]
 assignees:
   - STSynthe
@@ -32,14 +32,14 @@ body:
     attributes:
       label: "Operating environment"
       description: "環境（OS、ブラウザ、拡張機能、購読してるフィルタなど）"
-      value: "- OS: Windows? macOS?\r\n- Browser:"
+      value: "- OS: Windows? macOS?\r\n- Browser: \r\nExtension: Adblock Plus\r\n- Subscriptions: EasyList?, ABP Japanese filters(Edited by えむ/STSynthe)"
     validations:
       required: true
   - type: checkboxes
     id: terms
     attributes:
-      label: "同意 - Agree"
-      description: "このIssueをサブミットすることで、あなたは`README.md`の内容を理解・同意したことになります。"
+      label: "Agree"
+      description: "このIssueをサブミットすることで、あなたは[`README.md`](https://stsynthe.github.io/abp-japanese-filters/)の内容を理解・同意したことになります。"
       options:
-        - label: "同意する - I agree"
+        - label: "**同意する - I agree**"
           required: true
