@@ -14,27 +14,27 @@ body:
     validations:
       required: true
   - type: textarea
-	  id: log
-		attributes:
-		  label: "Bad part"
-			description: "表示の乱れや動作不良（logでも可）"
-		validations:
-		  required: false
+    id: log
+    attributes:
+      label: "Bad part"
+      description: "表示の乱れや動作不良（logでも可）"
+    validations:
+      required: false
   - type: textarea
-	  id: original
-		attributes:
-		  label: "Original"
-			description: "本来の状態"
-		validations:
-		  required: false
+    id: original
+    attributes:
+      label: "Original"
+      description: "本来の状態"
+    validations:
+      required: false
   - type: textarea
-	  id: oe
-		attributes:
-		  label: "Operating environment"
-			description: "環境（OS、ブラウザ、拡張機能、購読してるフィルタなど）"
-			alue: "- OS: Windows? macOS?\r\n- Browser:"
-		validations:
-		  required: true
+    id: oe
+    attributes:
+    label: "Operating environment"
+    description: "環境（OS、ブラウザ、拡張機能、購読してるフィルタなど）"
+    value: "- OS: Windows? macOS?\r\n- Browser:"
+    validations:
+      required: true
   - type: checkboxes
     id: terms
     attributes:
