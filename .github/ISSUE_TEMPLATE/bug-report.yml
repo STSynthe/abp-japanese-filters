@@ -6,13 +6,13 @@ assignees:
   - STSynthe
 body:
   - type: textarea
-	  id: url
-		attributes:
-		  label: "URL"
-			description: "問題を引き起こしてるウェブサイトURL"
-			laceholder: "https://example.net/campaign/\r\nhttps://example.org/"
-		validations:
-		  required: true
+    id: url
+    attributes:
+      label: "URL"
+      description: "問題を引き起こしてるウェブサイトURL"
+      laceholder: "https://example.net/campaign/\r\nhttps://example.org/"
+    validations:
+      required: true
   - type: textarea
 	  id: log
 		attributes:
