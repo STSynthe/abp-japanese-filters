@@ -7,13 +7,13 @@ assignees:
 body:
   - type: markdown
     attributes:
-      value: "報告ありがとうございます。見出しの横に「*」の印がついたフォームは入力必須です。"
+      value: "報告ありがとうございます。見出しの横に「*」の印がついたフォームは入力必須です。ページ下部の「Submit new issue」ボタンで投稿できます。"
   - type: textarea
     id: url
     attributes:
       label: "URL"
-      description: "問題を引き起こしてるウェブサイトURL"
-      placeholder: "https://example.net/campaign/\r\nhttps://example.org/"
+      description: "問題を引き起こしてるウェブサイトURLまたはタイトル付きリンク"
+      placeholder: "[にこにこキャンペーン](https://example.net/campaign/)\r\nhttps://example.org/"
     validations:
       required: true
   - type: textarea
@@ -42,7 +42,7 @@ body:
     id: note
     attributes:
       label: "Note"
-      description: "備考、あるいは本件とは別になりそうな要件など"
+      description: "自由フォーム、本件とは別になりそうな要件などあればお使い下さい"
       placeholder: "本日の晩ご飯は***御鮨***です。"
     validations:
       required: false
@@ -50,7 +50,7 @@ body:
     id: terms
     attributes:
       label: "Agree"
-      description: "このIssueをサブミットすることで、あなたは[`README.md`](https://stsynthe.github.io/abp-japanese-filters/)の内容を理解・同意したことになります。"
+      description: "このIssueを投稿することで、あなたは[`README.md`](https://stsynthe.github.io/abp-japanese-filters/)の内容を理解・同意したことになります。"
       options:
         - label: "**同意する - I agree**"
           required: true
