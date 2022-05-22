@@ -1,10 +1,13 @@
 name: "バグレポート - Bug report"
-description: "このフィルタが引き起こしている問題を報告します（「Get started」をクリックしてフォームを展開する👉） - Create a report to help us improve"
-title: "なにかおかしいよ（変更してお使い下さい）"
+description: "このフィルタが引き起こしている問題をオーナーに報告します（「Get started」をクリックしてフォームを展開する👉） - Create a report to help us improve"
+title: "なにかがおかしいよ（変更してお使い下さい）"
 labels: ["bug"]
 assignees:
   - STSynthe
 body:
+  - type: markdown
+    attributes:
+      value: "報告ありがとうございます。見出しの横に「*」の印がついたフォームは入力必須です。"
   - type: textarea
     id: url
     attributes:
@@ -24,15 +27,15 @@ body:
     id: original
     attributes:
       label: "Original"
-      description: "本来の状態"
+      description: "本来の状態（提案可能な修正コードでも可）"
     validations:
       required: false
   - type: textarea
     id: oe
     attributes:
       label: "Operating environment"
-      description: "環境（OS、ブラウザ、拡張機能、購読してるフィルタなど）"
-      value: "- OS: Windows? macOS?\r\n- Browser: \r\nExtension: Adblock Plus\r\n- Subscriptions: EasyList?, ABP Japanese filters(Edited by えむ/STSynthe)"
+      description: "環境（OS、ブラウザ、拡張機能、購読してるフィルタなどを分かる範囲で）"
+      value: "- OS: Windows? macOS?\r\n- Browser: \r\n- Extension: Adblock Plus\r\n- Subscriptions: EasyList?, ABP Japanese filters(Edited by えむ/STSynthe)"
     validations:
       required: true
   - type: checkboxes
