@@ -1,0 +1,44 @@
+name: "バグレポート - Bug report"
+description: "このフィルタが引き起こしている問題を報告します - Create a report to help us improve"
+title: ""
+labels: ["bug"]
+assignees:
+  - STSynthe
+body:
+  - type: textarea
+	  id: url
+		attributes:
+		  - label: "URL"
+			  description: "問題を引き起こしてるウェブサイトURL"
+				placeholder: "https://example.net/campaign/\r\nhttps://example.org/"
+		validations:
+		  required: true
+  - type: textarea
+	  id: log
+		attributes:
+		  - label: "Bad part"
+			  description: "表示の乱れや動作不良（logでも可）"
+		validations:
+		  required: false
+  - type: textarea
+	  id: original
+		attributes:
+		  - label: "Original"
+			  description: "本来の状態"
+		validations:
+		  required: false
+  - type: textarea
+	  id: oe
+		attributes:
+		  - label: "Operating environment"
+			  description: "環境（OS、ブラウザ、拡張機能、購読してるフィルタなど）"
+				value: "- OS: Windows? macOS?\r\n- Browser:"
+		validations:
+		  required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: "同意 - Agree"
+      description: "このIssueをサブミットすることで、あなたは`README.md`の内容を理解・同意したことになります。"
+      options:
+        - required: true
