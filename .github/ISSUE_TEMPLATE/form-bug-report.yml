@@ -7,12 +7,12 @@ assignees:
 body:
   - type: markdown
     attributes:
-      value: "報告ありがとうございます。見出しの横に「*」の印がついたフォームは入力必須です。ページ下部の「Submit new issue」ボタンで投稿できます。"
+      value: "報告ありがとうございます。見出しの横に「*」の印がついたフォームは入力必須です。\r\nページ下部の「Submit new issue」ボタンで投稿できます。"
   - type: textarea
     id: url
     attributes:
       label: "URL"
-      description: "問題を引き起こしてるウェブサイトURLまたはタイトル付きリンク"
+      description: "問題を引き起こしてるウェブサイトURLまたはタイトル付きリンク（タイトルのみ、あいまいな表現不可）"
       placeholder: "[にこにこキャンペーン](https://example.net/campaign/)\r\nhttps://example.org/"
     validations:
       required: true
