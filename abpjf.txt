@@ -36,6 +36,8 @@
 @@||promo.yahoo-mbga.jp^$domain=yahoo-mbga.jp
 ! sns.petitgift.com added in 2022-05-22
 @@||sns.petitgift.com/campaigns/$popup
+! apple.com added in 2022-05-22
+@@||apple.com/*promo
 !
 ! ---------- Default white list END ----------
 !

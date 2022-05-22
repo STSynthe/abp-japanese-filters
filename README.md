@@ -26,13 +26,13 @@ ABP Japanese filtersとは別に
 
 以上のフィルタを合わせて購読することを推奨しています。ただし組み合わせ過ぎはおすすめしません。***重たくなる原因***です[^performance]。
 
-≫ <a href="https://subscribe.adblockplus.org?location=https%3A%2F%2Fraw.githubusercontent.com%2FSTSynthe%2Fabp-japanese-filters%2Fmaster%2Fabpjf.txt&amp;title=ABP%20Japanese%20filters">Subscribe - フィルタの購読（インストール）</a> ≪ - （[ソース](https://raw.githubusercontent.com/STSynthe/abp-japanese-filters/master/abpjf.txt)）
+≫ [Subscribe - フィルタの購読（インストール）](https://subscribe.adblockplus.org?location=https%3A%2F%2Fraw.githubusercontent.com%2FSTSynthe%2Fabp-japanese-filters%2Fmaster%2Fabpjf.txt&amp;title=ABP%20Japanese%20filters) ≪ - （[ソース](https://raw.githubusercontent.com/STSynthe/abp-japanese-filters/master/abpjf.txt)）
 
 # 問題報告
 
 ご協力感謝します。
 
-このフィルタが引き起こしてる表示の乱れや動作不良の対応は[issues（問題報告）](https://github.com/STSynthe/abp-japanese-filters/issues)のみ受け付いてます[^motivation]。
+このフィルタが引き起こしてる表示の乱れや動作不良の対応は[issues（問題報告）](https://github.com/STSynthe/abp-japanese-filters/issues/new/choose)のみ受け付いてます[^motivation]。
 
 - ***問題を引き起こしてるウェブサイトURL***（ウェブサイトのタイトルのみ記入不可）
 - 表示の乱れや動作不良（あからさまなら記入不要）
@@ -52,7 +52,7 @@ ABP Japanese filtersとは別に
 
 ## uBlock Originに対応してますか？
 
-使えますが完動はしません。私が手入れしてからは「スニペットフィルタ」と呼ばれるフィルタパターンは***非対応***になりました。
+使えますが完動しません。私が「スニペットフィルタ」と呼ばれるフィルタパターンを採用してから***非対応***になりました。
 
 ここではフィルタ文法について詳しく説明しませんが、基本的なフィルタの書き方はAdblock Plusを真似ていればuBlock Originもほぼ対応しています。ただ「スニペットフィルタ」と呼ばれるフィルタ文法には違いがあり、これが原因で非対応と言うことです。
 
