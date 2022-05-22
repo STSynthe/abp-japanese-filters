@@ -1,6 +1,6 @@
 name: "バグレポート - Bug report"
 description: "このフィルタが引き起こしている問題を報告します - Create a report to help us improve"
-title: ""
+title: "バグレポート - Bug report"
 labels: ["bug"]
 assignees:
   - STSynthe
@@ -10,7 +10,7 @@ body:
     attributes:
       label: "URL"
       description: "問題を引き起こしてるウェブサイトURL"
-      laceholder: "https://example.net/campaign/\r\nhttps://example.org/"
+      placeholder: "https://example.net/campaign/\r\nhttps://example.org/"
     validations:
       required: true
   - type: textarea
@@ -30,9 +30,9 @@ body:
   - type: textarea
     id: oe
     attributes:
-    label: "Operating environment"
-    description: "環境（OS、ブラウザ、拡張機能、購読してるフィルタなど）"
-    value: "- OS: Windows? macOS?\r\n- Browser:"
+      label: "Operating environment"
+      description: "環境（OS、ブラウザ、拡張機能、購読してるフィルタなど）"
+      value: "- OS: Windows? macOS?\r\n- Browser:"
     validations:
       required: true
   - type: checkboxes
@@ -41,4 +41,5 @@ body:
       label: "同意 - Agree"
       description: "このIssueをサブミットすることで、あなたは`README.md`の内容を理解・同意したことになります。"
       options:
+        - label: "同意する - I agree"
         - required: true
