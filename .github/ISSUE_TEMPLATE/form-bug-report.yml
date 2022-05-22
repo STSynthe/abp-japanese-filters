@@ -31,13 +31,21 @@ body:
     validations:
       required: false
   - type: textarea
-    id: oe
+    id: environment
     attributes:
-      label: "Operating environment"
+      label: "Environment"
       description: "環境（OS、ブラウザ、拡張機能、購読してるフィルタなどを分かる範囲で）"
       value: "- OS: Windows? macOS?\r\n- Browser: \r\n- Extension: Adblock Plus\r\n- Subscriptions: EasyList?, ABP Japanese filters(Edited by えむ/STSynthe)"
     validations:
       required: true
+  - type: textarea
+    id: note
+    attributes:
+      label: "Note"
+      description: "備考、あるいは本件とは別になりそうな要件など"
+      placeholder: "本日の晩ご飯は***御鮨***です。"
+    validations:
+      required: false
   - type: checkboxes
     id: terms
     attributes:
