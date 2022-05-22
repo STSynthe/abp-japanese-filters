@@ -42,4 +42,4 @@ body:
       description: "このIssueをサブミットすることで、あなたは`README.md`の内容を理解・同意したことになります。"
       options:
         - label: "同意する - I agree"
-        - required: true
+          required: true
