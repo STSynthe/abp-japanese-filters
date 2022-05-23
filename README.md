@@ -4,7 +4,7 @@
 
 元のABP Japanese filtersは問題があり[^badboy]、個人的に気になる部分の排除・最適化しました。今まで自分用として使っていましたが、現在（2022年5月中旬）はこれを共有して使うのは自由です。
 
-***私への連絡は「[issues](https://github.com/STSynthe/abp-japanese-filters/issues)」にて***。<span lang="en">***Contact me at "[issues](https://github.com/STSynthe/abp-japanese-filters/issues)"***.</span>
+**私への連絡は「[issues](https://github.com/STSynthe/abp-japanese-filters/issues)」にて**。<span lang="en">**Contact me at "[issues](https://github.com/STSynthe/abp-japanese-filters/issues)"**.</span>
 
 # 方針
 
@@ -50,20 +50,20 @@ ABP Japanese filtersとは別に
 
 # 言い訳
 
-## uBlock Originに対応してますか？
+## uBlock Origin / AdGuardに対応してますか？
 
-使えますが完動しません。私が「スニペットフィルタ」と呼ばれるフィルタパターンを採用してから***非対応***になりました。
+使えますが完動しません。<br>私が「スニペットフィルタ」と呼ばれるフィルタパターンを採用してから***非対応***になりました。
 
-ここではフィルタ文法について詳しく説明しませんが、基本的なフィルタの書き方はAdblock Plusを真似ていればuBlock Originもほぼ対応しています。ただ「スニペットフィルタ」と呼ばれるフィルタ文法には違いがあり、これが原因で非対応と言うことです。
+ここではフィルタ文の書き方について詳しく説明しませんが、Adblock Plusの基本フィルタで書いていれば他の広告ブロックツールもほぼ対応しています。ただ「スニペットフィルタ」と呼ばれる文法に違いがあるために非対応に成るということです。
 
-現時点（2022年5月中旬）でuBlock Originに対応する考えはありません。コンバーターツールみたいなのを使えば解決すると思いますが、今はその時期ではないと考えています。敬遠ではなく、uBlock Originと仲良くやってく方向です。
+現時点（2022年5月中旬）で他の広告ブロックツールに対応する考えはありません。コンバーターツールみたいなのを使えば解決すると思いますが、今はその時期ではないと考えています。敬遠ではなく、他とも仲良くやってく方向です。
 
 ## 本家にPullリクエストした方が今使ってる方々へ貢献できるのでは？
 
-更新が滞っていることと、方針の違いによりしません。
+更新が絶え、なおかつ方針の違いによりしません。
 
-* https://github.com/k2jp/abp-japanese-filters/wiki/FAQ
-* https://github.com/k2jp/abp-japanese-filters/wiki/Support_Policy
+* [github.com/k2jp/abp-japanese-filters/wiki/FAQ](https://github.com/k2jp/abp-japanese-filters/wiki/FAQ)
+* [github.com/k2jp/abp-japanese-filters/wiki/Support_Policy](https://github.com/k2jp/abp-japanese-filters/wiki/Support_Policy)
 
 ## プライバシーポリシー云々の表示を消してほしい
 
@@ -93,7 +93,7 @@ YouTubeの視聴履歴はプライバシー侵害にあたると疑問を抱く�
 
 オチが良かったので、共有させてください。
 
-* https://twitter.com/ssig33/status/1094614899022426112
+* [twitter.com/ssig33/status/1094614899022426112](https://twitter.com/ssig33/status/1094614899022426112)
 
 # Links
 
@@ -116,7 +116,7 @@ YouTubeの視聴履歴はプライバシー侵害にあたると疑問を抱く�
 | [ABP filters](https://github.com/abp-filters/abp-filters-anti-cv)  | GNU GPL v3.0 | ベースとして入れておきたい一品。 |
 | [EasyList](https://easylist.to)  | GNU GPL v3.0 + CC BY-SA 3.0 | より強力・スマート。必須フィルタといっても良いぐらい。 |
 | [豆腐フィルタ](https://github.com/tofukko/filter) | コピーレフト？ | ソースが綺麗に整理されてる。2022年時点更新継続中。 |
-| [もちフィルタ](https://eeii0a5l.github.io/mochifilter_homepage/mochi.html) | パブリックドメイン[^T.Goda] | 最低限のコモンで弾いてるためか、より軽量を唱っている。2022年時点更新継続中。 |
+| [もちフィルタ](https://eeii0a5l.github.io/mochifilter_homepage/mochi.html) | パブリックドメイン[^mochi] | 最低限のコモンで弾いてるためか、より軽量を唱っている。2022年時点更新継続中。 |
 | [Yuki's uBlock Japanese filters （雪フィルタ）](https://github.com/Yuki2718/adblock) | CC BY-SA 4.0 | uBlock Origin向けのフィルタ。2022年時点更新継続中。 |
 | [ABP Japanese filters（本家）github.com/k2jp/abp-japanese-filters](https://github.com/k2jp/abp-japanese-filters) | GNU GPL v3.0 + CC BY-NC-SA 4.0 | このフィルタをベースに開発してます。2021年頃に更新が途絶える。 |
 
@@ -128,7 +128,7 @@ YouTubeの視聴履歴はプライバシー侵害にあたると疑問を抱く�
 
 [^badboy]: 1万行を超えてるためにパフォーマンス低下と誤爆、さらにuBlock Originからは[「ABP Japanese filtersは酷い」と酷評され](https://www.reddit.com/r/uBlockOrigin/comments/apby98/default_included_abp_japanese_filters_just_sucks/)、デフォルトのリストから外されている。
 [^motivation]: （2022年5月中旬時点）READMEにあるように元は自分用でした。以後もissues以外での不具合対応するモチベーションはないです。ドネーションも今のところ考えてません。
-[^T.Goda]: （2022年5月上旬時点）「**もちフィルタは、EasyListと豆腐フィルタから必要最小限のフィルタを抜き出したもの**」としてる。真偽は兎も角、[EasyListはライセンスを明確](https://easylist.to/pages/licence.html)にしている…
+[^mochi]: （2022年5月上旬時点）「**もちフィルタは、EasyListと豆腐フィルタから必要最小限のフィルタを抜き出したもの**」としてる。真偽は兎も角、[EasyListはライセンスを明確](https://easylist.to/pages/licence.html)にしている…
 [^performance]: ジェネリックや正規表現、拡張機能の多用はパフォーマンス低下に繋がることが確実です。またEasyListだけで6万行超えています。
 [^yaruki]: 「やる気低下」というコミットが次第に露呈するはずです。
 [^amazon]: [Amazonアソシエイト・プログラム運営規約](https://affiliate.amazon.co.jp/help/operating/agreement) から。とくに5章「乙がアソシエイトであることの表示」ができてない個人・企業のサイトが多くまた卑劣であることが主な理由です。
