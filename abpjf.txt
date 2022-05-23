@@ -356,6 +356,8 @@ ameblo.jp#?#div:-abp-has(> div[data-aid][style*="height"])
 ameblo.jp#$#freeze-element div#app ''
 ! oricon.co.jp added in 2022-05-23
 oricon.co.jp##div#container .block-header-banner
+! comic-days.com added in 2022-05-24
+comic-days.com##body#page-viewer div.link-slot:not(img[data-src] + a[href^="https://comic-days.com/"])
 !
 ! Elements END
 !
@@ -1547,6 +1549,8 @@ oricon.co.jp##div#container .block-header-banner
 ||nad.cbs.co.kr^
 ||cbsinteractive.com/plugins/adp/
 ||cdn-image.com^
+! comic-days.com added in 2022-05-24
+||cdn-img.comic-days.com/public/media_link_slot/
 ||1524001641.rsc.cdn77.org^
 ||cdnads.com^
 ||cdnbd.
