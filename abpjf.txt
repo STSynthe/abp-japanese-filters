@@ -38,6 +38,8 @@
 @@||sns.petitgift.com/campaigns/$popup
 ! apple.com added in 2022-05-22
 @@||apple.com/*promo
+! smartnews-ads.com added in 2022-05-24
+@@||www.smartnews-ads.com/img/help/standard-ads/
 !
 ! ---------- Default white list END ----------
 !
@@ -1551,6 +1553,8 @@ comic-days.com##body#page-viewer div.link-slot:not(img[data-src] + a[href^="http
 ||cdn-image.com^
 ! comic-days.com added in 2022-05-24
 ||cdn-img.comic-days.com/public/media_link_slot/
+! smartnews-ads.com added in 2022-05-24
+||cdn.smartnews-ads.com^$third-party
 ||1524001641.rsc.cdn77.org^
 ||cdnads.com^
 ||cdnbd.
