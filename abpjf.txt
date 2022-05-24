@@ -4778,26 +4778,8 @@ comic-days.com##body#page-viewer div.link-slot:not(img[data-src] + a[href^="http
 ||specificmedia.com^$third-party
 ||specisez.com^
 ||spectato.com^
-||speednetwork0.com^
-||speednetwork1.com^
-||speednetwork10.com^
-||speednetwork11.com^
-||speednetwork12.com^
-||speednetwork13.com^
+! speednetwork14.com checked 2022-05-25 不審なサイト
 ||speednetwork14.com^
-||speednetwork15.com^
-||speednetwork16.com^
-||speednetwork17.com^
-||speednetwork18.com^
-||speednetwork19.com^
-||speednetwork2.com^
-||speednetwork3.com^
-||speednetwork4.com^
-||speednetwork5.com^
-||speednetwork6.com^
-||speednetwork7.com^
-||speednetwork8.com^
-||speednetwork9.com^
 ||speedrencontre.com^
 ||speee-ad.
 ||scarlet.spegene.com^
