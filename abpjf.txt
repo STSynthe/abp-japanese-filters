@@ -1668,6 +1668,8 @@ comic-days.com##body#page-viewer div.link-slot:not(img[data-src] + a[href^="http
 ||np7beacon.cloudapp.net^
 ||cloudcdnru.com^
 ||cloudcnd.com^
+! contentsfeed.com added in 2022-05-25
+||contentsfeed.com^
 ! False positive with harmless scripts reported at [Issue 40](https://github.com/k2jp/abp-japanese-filters/issues/40) , Feb 21, 2019
 ! ||ajax.cloudflare.com^
 ||cloudflare.solutions^
