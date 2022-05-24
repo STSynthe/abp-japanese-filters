@@ -1082,40 +1082,7 @@ comic-days.com##body#page-viewer div.link-slot:not(img[data-src] + a[href^="http
 ||amaprop.net^$third-party
 ||amasvc.com^
 ||amazon-adsystem.com^
-||amazon.*/aan/$domain=amazon.ca|amazon.cn|amazon.co.jp|amazon.co.uk|amazon.com|amazon.de|amazon.es|amazon.fr|amazon.it
-||amazon.*?*=*-22^$third-party
-! ||fls-*.amazon.
-||rcm*.amazon.$third-party
-||ws.amazon.$third-party
-||sis.amazon.com^
-||amazonaws.com^$popup
-||amazonaws.com/*.cetrk.com/
-||amazonaws.com/*.inspectlet.com/
-! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
-! ||amazonaws.com/*.kissinsights.com/
-||amazonaws.com/*.kissmetrics.com/
-||amazonaws.com/*.megacpm.com/
-||amazonaws.com/*.pagefair.com/
-||amazonaws.com/*.similardeals.net/
-||amazonaws.com/af-bdaz/
-||amazonaws.com/ai-img/
-||amazonaws.com/assests/
-||amazonaws.com/clickmeter.com/
-||amazonaws.com/getsatisfaction.com/
-||amazonaws.com/hd_streamer/
-||amazonaws.com/isr-public/
-||amazonaws.com/kccs-adecco/
-||amazonaws.com/ki.
-||amazonaws.com/lp3cloudfront/
-||amazonaws.com/lps
-||amazonaws.com/monetrackpro/
-||amazonaws.com/opbanditcdn/
-||amazonaws.com/opentag/
-||amazonaws.com/p10DrIj/
-||amazonaws.com/saaspulse-cdn/
-||amazonaws.com/sniffer/
-||amazonaws.com/tapjoy/
-||amazonaws.com/totango-cdn/
+! ssl-images-amazon.com added in 2022-05-20
 ||ssl-images-amazon.com/images/*/DAsf-
 ||6607129fd4ee493fbcb7f8f4d3e0f606.s3.amazonaws.com^
 ||analyticsengine.s3.amazonaws.com^
