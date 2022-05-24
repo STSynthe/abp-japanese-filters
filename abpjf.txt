@@ -367,27 +367,6 @@ comic-days.com##body#page-viewer div.link-slot:not(img[data-src] + a[href^="http
 ! ---------- TLD (Top Level Domain) with path END ----------
 ! 
 ! ########## Domains optionally with path START ##########
-://46.105.39.177^
-://49.212.27.60^
-://80.77.113.200^
-://127.0.0.1:4001/isrunning$third-party
-://130.211.212.60^$document
-://133.242.135.143^
-://202.212.208.85^
-://202.229.21.235^
-://203.86.249.80^
-://210.135.99.84^
-://210.155.151.148^
-://217.19.51.
-!
-||*-aaa.net^$third-party
-||*-adsterra.com^$document
-||*-arata.com^$third-party
-||*-mmm.net^
-||*-mmm.net^$popup
-||*-terraclicks.com^$document
-||*tab.com/?*&subid=
-||*tab.com/click.gif?landing_id=
 ||00h10.com^
 ||0427d7.se^$popup
 ||08lkk.com/*/data/attachment/common/cf/
@@ -474,7 +453,6 @@ comic-days.com##body#page-viewer div.link-slot:not(img[data-src] + a[href^="http
 ||777seo.com^$third-party
 ||777town.net^$popup
 ||7794.com^$third-party
-||77978.みんな^
 ||7ebadd87.xyz^
 ||7sur7-credit.com^
 ||7vws1j1j.com^
