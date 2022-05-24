@@ -5628,7 +5628,10 @@ comic-days.com##body#page-viewer div.link-slot:not(img[data-src] + a[href^="http
 ||zone-finance.com^
 ||zone-voyance.com^
 ||zontrans.com^
-||zucks.jp^
+! zucks.jp update 2022-05-25 (スクリプトか存在するか未確認要件)
+||zucks.jp^$third-party,domain=~affiliate.zucks.jp
+! zucks.net added 2022-05-25
+||zucks.net^$third-party
 ||zwaar.org^
 ! ========== ValueClick alias domains: 216.34.207.62 START ==========
 ||afcyhf.com^
