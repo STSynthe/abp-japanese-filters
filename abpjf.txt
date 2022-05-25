@@ -1924,12 +1924,18 @@ xrea.com#?#body > div[style*="display"]:first-child:-abp-has(> a[href*="adref="]
 ! ||dmcdn.net/flash/dmplayer*/plugins/
 ||dmcdn.net/js/gen/lib/feature_promotion.
 ||dmm-rank.com^$third-party
-||dmm.co.jp^$domain=~dmm.co.jp|~dmm.com
-||dmm.co.jp/lp/$popup
-||dmm.com^$domain=~dmm.co.jp|~dmm.com
-||dmm.com/af/
-||dmm.com/lp/$popup
-||aqua.dmm.co.jp^
+! ad.dmm.com added in 2022-05-25
+||ad.dmm.com^$popup,domain=~dmm.co.jp|~dmm.com
+! al.dmm.com added in 2022-05-25
+||al.dmm.com^$popup
+! al.dmm.co.jp added in 2022-05-25
+||al.dmm.co.jp^$popup
+! dmm.co.jp added in 2022-05-25
+||dmm.co.jp$subdocument,domain=~dmm.co.jp
+||dmm.co.jp/dmm-c-sdk.js
+! dmm.com added in 2022-05-25
+||dmm.com/js/common/set_tracking.js
+||dmm.com/analytics/
 ||dmpcounter.com^
 ||dmtracker.com^$third-party
 ||dmtry.com^
