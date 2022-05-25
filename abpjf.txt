@@ -1700,9 +1700,6 @@ xrea.com#?#body > div[style*="display"]:first-child:-abp-has(> a[href*="adref="]
 ||coquine.org^
 ||coquines-webcam.com^
 ||coremetrics.com^$third-party
-||*in.*.coreserver.jp^$object,script,subdocument
-||*soku.*.coreserver.jp^$object,script,subdocument
-||*sub.*.coreserver.jp^$object,script,subdocument
 ||cosaji.jp^$third-party
 ||cosmi.io^$third-party
 ||cotation-argus.net^
