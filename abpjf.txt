@@ -1687,11 +1687,6 @@ xrea.com#?#body > div[style*="display"]:first-child:-abp-has(> a[href*="adref="]
 ||conversionruler.com^$third-party
 ||convertfilesforfree.com^$third-party
 ||convertro.com^$third-party
-! False positive at http://www.youtube.com/oracle reported by @dullneko 2011-10-03
-! => Resolved with whitelists  @@||conviva.com/crossdomain.xml and @@||conviva.com/lpconfig/cfg/ 2011-10-06
-! => Commented out whitelists above because these false positives has gone, somehow 2011-10-11
-! Another false positives at ustream.tv , reported via Issue Report 2011-12-09
-! => Resolved with the past commented out whitelists above 2011-12-09
 ||conviva.com^$third-party
 ||livepass.conviva.com^
 ||banpro.in.coocan.jp^$third-party
@@ -5058,14 +5053,6 @@ xrea.com#?#body > div[style*="display"]:first-child:-abp-has(> a[href*="adref="]
 ! ||userlocal.jp/b
 ||userlocal.jp^$third-party
 ||api.social.userlocal.jp/apis/
-||ustream.tv^*/images/softbank-
-||ustream.tv^*/images/special/
-||ustream.tv/*/games/api/common/*.json?ts=$xmlhttprequest
-||ustream.tv/fukuyama/
-! Integrated into ||ox-d. , Jun 2, 2012
-! ||ox-d.ustream.tv
-! Integrated into ||ox-i. , Jun 2, 2012
-! ||ox-i.ustream.tv
 ||usualmedia.com^
 ||usadserver.com^
 ||utamap.com/banner/
