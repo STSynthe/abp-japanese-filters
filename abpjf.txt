@@ -1953,8 +1953,10 @@ hateblo.jp##div.google-afc-image
 ! ||ads.doko.jp^
 ||match.doko.jp^
 ! docomo.ne.jp added in 2022-05-26 update 2022-05-26
+||docomo.ne.jp^*log$script
 ||docomo.ne.jp/js/beacon.js
 ||docomo.ne.jp/img/empty.gif
+||docomo.ne.jp/js/urchin.js
 ||domainadvertising.com^$third-party
 ||domainnamesales.com^$third-party
 ||domdex.com^
