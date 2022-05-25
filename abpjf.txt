@@ -928,6 +928,8 @@ hateblo.jp##div.google-afc-image
 ||apiscantacknet-a.akamaihd.net^
 ||appnext-a.akamaihd.net^
 ||asrv-a.akamaihd.net^
+! azonaws.com added in 2022-05-26 不審なサイト
+||azonaws.com^
 ||candlejar-a.akamaihd.net^
 ||canvas*-a.akamaihd.net^
 ||cdncache-a.akamaihd.net^
