@@ -1952,8 +1952,9 @@ hateblo.jp##div.google-afc-image
 ||adapp.doko.jp^
 ! ||ads.doko.jp^
 ||match.doko.jp^
-! docomo.ne.jp added in 2022-05-26
+! docomo.ne.jp added in 2022-05-26 update 2022-05-26
 ||docomo.ne.jp/js/beacon.js
+||docomo.ne.jp/img/empty.gif
 ||domainadvertising.com^$third-party
 ||domainnamesales.com^$third-party
 ||domdex.com^
