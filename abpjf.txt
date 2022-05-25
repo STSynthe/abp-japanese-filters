@@ -360,6 +360,8 @@ ameblo.jp#$#freeze-element div#app ''
 oricon.co.jp##div#container .block-header-banner
 ! comic-days.com added in 2022-05-24
 comic-days.com##body#page-viewer div.link-slot:not(img[data-src] + a[href^="https://comic-days.com/"])
+! xrea.com added in 2022-05-25
+xrea.com#?#body > div[style*="display"]:first-child:-abp-has(> a[href*="adref="])
 !
 ! Elements END
 !
@@ -5072,6 +5074,10 @@ comic-days.com##body#page-viewer div.link-slot:not(img[data-src] + a[href^="http
 ||utherverse.com^$third-party
 ||utilient.com^
 ||utilieur.com^
+! value-domain.com added in 2022-05-25
+||www.value-domain.com/assets/img/$image,domain=xrea.com
+! value-domain.com added in 2022-05-25
+||cache1.value-domain.com^$script,image,domain=xrea.com
 ||v-bates.com^$third-party
 ||v2cigs.com^$third-party
 ||vador.com^$popup
@@ -5276,9 +5282,6 @@ comic-days.com##body#page-viewer div.link-slot:not(img[data-src] + a[href^="http
 ||xoliter.com^
 ||xparadiz.com^
 ||xplosion.de^$third-party
-||xrea.com/ad_
-||ad.xrea.com^
-||ax.xrea.com^$third-party
 ||imgj.xrea.com/xa.
 ||xredirects.com^$popup
 ||xrosview.com^$third-party
