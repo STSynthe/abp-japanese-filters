@@ -347,10 +347,12 @@ weathernews.jp#$#override-property-read WNIAds.prototype.init_ads null
 weathernews.jp#$#override-property-read use_sticky_ad false
 ! kyodo.co.jp added in 2022-05-17
 kyodo.co.jp#?#div#Sub > div.textwidget > div.box > a[onclick]:-abp-has(img)
-! huffingtonpost.* added in 2022-05-18
-huffingtonpost.jp,huffpost.com,huffingtonpost.co.uk,huffingtonpost.es,huffingtonpost.fr,huffingtonpost.gr,huffingtonpost.it,huffingtonpost.kr##div#left-nav + div[style]
-huffingtonpost.jp,huffpost.com,huffingtonpost.co.uk,huffingtonpost.es,huffingtonpost.fr,huffingtonpost.gr,huffingtonpost.it,huffingtonpost.kr##div[class*="ad"]:not(> script)
-huffingtonpost.jp##div.right-rail-sticky > div[style*="height"]
+! huffingtonpost.* added in 2022-05-18 update 2022-05-26
+huffingtonpost.jp,huffpost.com,huffingtonpost.co.uk,huffingtonpost.es,huffingtonpost.fr,huffingtonpost.gr,huffingtonpost.it,huffingtonpost.kr##body > div > div[style*="height"]
+huffingtonpost.jp,huffpost.com,huffingtonpost.co.uk,huffingtonpost.es,huffingtonpost.fr,huffingtonpost.gr,huffingtonpost.it,huffingtonpost.kr##div[class~="ad-container"]
+huffingtonpost.jp,huffpost.com,huffingtonpost.co.uk,huffingtonpost.es,huffingtonpost.fr,huffingtonpost.gr,huffingtonpost.it,huffingtonpost.kr##main#main > div[style*="display"]:first-child
+huffingtonpost.jp,huffpost.com,huffingtonpost.co.uk,huffingtonpost.es,huffingtonpost.fr,huffingtonpost.gr,huffingtonpost.it,huffingtonpost.kr##section#entry-body > section > div[class*="advertisement"]
+huffingtonpost.jp,huffpost.com,huffingtonpost.co.uk,huffingtonpost.es,huffingtonpost.fr,huffingtonpost.gr,huffingtonpost.it,huffingtonpost.kr##div[class*="ad_wrapper_"]
 ! afpbb.com added in 2022-05-18
 afpbb.com##aside.bnr
 ! ameblo.jp added in 2022-05-20
@@ -358,8 +360,8 @@ ameblo.jp#?#div:-abp-has(> div[data-aid][style*="height"])
 ameblo.jp#$#freeze-element div#app ''
 ! oricon.co.jp added in 2022-05-23
 oricon.co.jp##div#container .block-header-banner
-! comic-days.com added in 2022-05-24
-comic-days.com##body#page-viewer div.link-slot:not(img[data-src] + a[href^="https://comic-days.com/"])
+! comic-days.com added in 2022-05-24 update 2022-05-26
+comic-days.com##body#page-viewer > section > div#content div.link-slot
 ! xrea.com added in 2022-05-25
 xrea.com#?#body > div[style*="display"]:first-child:-abp-has(> a[href*="adref="])
 !
