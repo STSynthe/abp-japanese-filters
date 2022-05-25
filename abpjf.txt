@@ -1918,7 +1918,8 @@ xrea.com#?#body > div[style*="display"]:first-child:-abp-has(> a[href*="adref="]
 ||dizzyac.com^
 ||dl-rms.com^$third-party
 ||dlqm.net^$third-party
-||dlsite.com^$third-party
+! www.dlsite.com added in 2022-05-25
+||www.dlsite.com/*/dlaf/$popup
 ||dmcdn.net/behavior/
 ! False positives at dailymotion.com reported via Issue Report 2011-11-30
 ! ||dmcdn.net/flash/dmplayer*/plugins/
