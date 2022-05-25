@@ -364,6 +364,9 @@ oricon.co.jp##div#container .block-header-banner
 comic-days.com##body#page-viewer > section > div#content div.link-slot
 ! xrea.com added in 2022-05-25
 xrea.com#?#body > div[style*="display"]:first-child:-abp-has(> a[href*="adref="])
+! hateblo.jp added in 2022-05-26
+hateblo.jp##article.sleeping-ads
+hateblo.jp##div.google-afc-image
 !
 ! Elements END
 !
