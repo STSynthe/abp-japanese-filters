@@ -367,6 +367,14 @@ xrea.com#?#body > div[style*="display"]:first-child:-abp-has(> a[href*="adref="]
 ! hateblo.jp added in 2022-05-26
 hateblo.jp##article.sleeping-ads
 hateblo.jp##div.google-afc-image
+! video.fc2.com added in 2022-05-29
+video.fc2.com##section.banner
+video.fc2.com##div.main-container > section + div > div
+video.fc2.com##section.main > div.main-body > div.content-wrap[aria-hidden]
+video.fc2.com##body > div.u-fixed-contents > div[class*="ad"]
+video.fc2.com##body > div.u-fixed-contents > div > div.clmn-side > div[class~="side_banner"]
+video.fc2.com##body > div.u-fixed-contents > div > div.clmn-side > div.ad_panelAR
+video.fc2.com##ul.list-subCont > li[style]
 !
 ! Elements END
 !
@@ -2216,7 +2224,6 @@ hateblo.jp##div.google-afc-image
 ||faststarter.ru^
 ||tracking.fathomseo.com^
 ||fbchatplus.com^
-||fc2-master.sakura.ne.jp^$third-party
 ||fc2.com^*/footer-
 ||fc2.com^*/footer.
 ||fc2.com^*/footer^
@@ -2243,6 +2250,8 @@ hateblo.jp##div.google-afc-image
 ||hypost.fc2.com^
 ||media.fc2.com^
 ||media3.fc2.com^
+! video.fc2.com added in 2022-05-29
+||video.fc2.com/api/v3/videoplaytag/
 ||fdgeen.com^
 ||featuredusers.com^$third-party
 ||fedrobi.ru^
