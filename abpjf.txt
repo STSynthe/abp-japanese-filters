@@ -2361,6 +2361,8 @@ video.fc2.com##ul.list-subCont > li[style]
 ||gameforge.de^$third-party
 ||gameoftraffic.com^
 ||gamesrevenue.com^$third-party
+! assets.gamewith.jp added in 2022-05-30
+||assets.gamewith.jp^*/ad/
 ||gaminatorslots.com^$popup
 ||gamingadult.com^$third-party
 ||ganaza.ru^
