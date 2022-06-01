@@ -3885,6 +3885,8 @@ video.fc2.com##ul.list-subCont > li[style]
 ||overture.co.jp^$third-party
 ||ovskin.ru^
 ||owldata.com^$third-party
+! opecloud.com added in 2022-06-01
+||tagger.opecloud.com^
 ||p-advg.com^$third-party
 ||p-bxm.com^$third-party
 ||p-td.com^
