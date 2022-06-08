@@ -15,8 +15,8 @@
 !
 !
 ! ########## Temporary white list START ##########
-! toku.yahoo.co.jp added in 2022-05-02
-@@||s.yimg.jp/images/points/toku$image
+! toku.yahoo.co.jp added in 2022-05-02 update 2022-06-09
+@@||s.yimg.jp/images/points/toku$image,script,stylesheet
 ! www.amazon.co.jp added in 2022-05-03 update 2022-05-17
 @@||www.amazon.co.jp/promotion/$xmlhttprequest
 @@||www.amazon.co.jp$generichide
