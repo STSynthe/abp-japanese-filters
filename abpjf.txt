@@ -375,10 +375,10 @@ video.fc2.com##body > div.u-fixed-contents > div[class*="ad"]
 video.fc2.com##body > div.u-fixed-contents > div > div.clmn-side > div[class~="side_banner"]
 video.fc2.com##body > div.u-fixed-contents > div > div.clmn-side > div.ad_panelAR
 video.fc2.com##ul.list-subCont > li[style]
-! www.youtube.com added in 2022-06-10
+! www.youtube.com added in 2022-06-10 update 2022-06-10  (試験中)
 www.youtube.com#$#override-property-read window.ytInitialPlayerResponse.adPlacements true
-! ???(試験中)
 www.youtube.com#$#override-property-read window.ytInitialPlayerResponse.playerAds true
+www.youtube.com#$#json-prune 'adPlacements playerAds'
 www.youtube.com#?#ytd-rich-item-renderer:-abp-has(> div > ytd-display-ad-renderer)
 www.youtube.com##div#masthead-ad
 www.youtube.com##div#player-ads
