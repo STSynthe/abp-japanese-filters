@@ -375,6 +375,13 @@ video.fc2.com##body > div.u-fixed-contents > div[class*="ad"]
 video.fc2.com##body > div.u-fixed-contents > div > div.clmn-side > div[class~="side_banner"]
 video.fc2.com##body > div.u-fixed-contents > div > div.clmn-side > div.ad_panelAR
 video.fc2.com##ul.list-subCont > li[style]
+! www.youtube.com added in 2022-06-10
+www.youtube.com#$#override-property-read window.ytInitialPlayerResponse.adPlacements true
+! ???(試験中)
+www.youtube.com#$#override-property-read window.ytInitialPlayerResponse.playerAds true
+www.youtube.com#?#ytd-rich-item-renderer:-abp-has(> div > ytd-display-ad-renderer)
+www.youtube.com##div#masthead-ad
+www.youtube.com##div#player-ads
 !
 ! Elements END
 !
@@ -3777,8 +3784,6 @@ video.fc2.com##ul.list-subCont > li[style]
 ||nxnxcaqicm.ru^
 ||nxtck.com^
 ||files.nyaa.se^$image,domain=nyaa.se
-! Commented out a YouTube HTML5 false positive filter, reported as Issue 22. 2011-08-09
-! ||o-o.preferred.
 ||oath.com^$third-party
 ||obnale.ru^
 ||obtenir-de-l-argent.com^
@@ -5462,6 +5467,10 @@ video.fc2.com##ul.list-subCont > li[style]
 ||ytimg.com^*_banner.$image,object,subdocument
 ||ytimg.com^*_banner_$image,object,subdocument
 ||yyv.co^$popup
+! www.youtube.com added in 2022-06-10
+||www.youtube.com/youtubei/v1/log_event
+||www.youtube.com/youtubei/v1/player/ad_break
+||googleusercontent.com/proxy/$domain=youtube.com
 ||z5x.net^$third-party
 ||zanox.com^$third-party
 ||zanox.ws^
