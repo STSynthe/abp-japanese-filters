@@ -2555,11 +2555,8 @@ www.youtube.com##div#player-ads
 ||hardsextubepremium.com^$third-party
 ||hareljann.com^
 ||harrenmedianetwork.com^$third-party
-||ad.hatena.ne.jp^
-||counter.hatena.ne.jp^$domain=~counter.hatena.ne.jp
-||red.hatena.ne.jp^
-||red3.hatena.ne.jp^
-||track.hatena.ne.jp^
+! blog.hatena.ne.jp added in 2022-06-23
+||blog.hatena.ne.jp/api/log^
 ||hatid.com^
 ||hazecash.com^$third-party
 ||hbucks.ru^$third-party
