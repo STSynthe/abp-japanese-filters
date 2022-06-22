@@ -3336,6 +3336,8 @@ www.youtube.com##div#player-ads
 ||mc10.fr^
 ||mcmovil.com^
 ||mcnt.jp^
+! evolv.ai added in 2022-06-23
+||media.evolv.ai^
 ||meaningtool.com^$third-party
 ||medi-8.net^$third-party
 ||media-clic.com^$third-party
@@ -4162,29 +4164,10 @@ www.youtube.com##div#player-ads
 ||raidrush.ws^$third-party
 ||rr0103180000.raku-syo.info^$third-party
 ||rakulog.com^$third-party
-||rakuten.co.jp^*/ad/
-||rakuten.co.jp^*/ad_
-||rakuten.co.jp^*/liquidbanner/
-||rakuten.co.jp^*/message/flash/
-||rakuten.co.jp/camp/
-||rakuten.co.jp/com/img/home/t.$image,object,subdocument
-||rakuten.co.jp/common00/
-||rakuten.co.jp/content/news/bunner/
-! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
-! ||rakuten.co.jp/js/adjs/
-||rakuten.co.jp/js/catalyst/
-! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
-! ||rakuten.co.jp/js/p_code.$script
-||rakuten.co.jp/js/pr/
-||rakuten.co.jp/share/wat/
-||afl.rakuten.co.jp/hsb/
+! rakuten.co.jp added in 2022-06-23
+/com/img/home/t.*^$domain=rakuten.co.jp|r10s.jp
 ||affiliate.rakuten.co.jp^$third-party
-||dynamic.rakuten.co.jp^
-||etool.rakuten.co.jp^
-||pitatto.rakuten.co.jp^
-||plaza.rakuten.co.jp/swf/login.swf
-||rd.rakuten.co.jp/p/
-||rakuten-static.com^*/prm_$script
+||s-cdn.rmp.rakuten.co.jp/js/
 ||rakuword.com^$third-party
 ||rambler.ru^$third-party
 ||rapidocam.com^
