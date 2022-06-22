@@ -40,6 +40,8 @@
 @@||apple.com/*promo
 ! smartnews-ads.com added in 2022-05-24
 @@||www.smartnews-ads.com/img/help/standard-ads/
+! www.aliexpress.com added in 2022-06-23
+@@||aliexpress.com/store/lego/pc/api/renderPageData.htm
 !
 ! ---------- Default white list END ----------
 !
@@ -3459,6 +3461,8 @@ www.youtube.com##div#player-ads
 ||mmaaxx.com^$popup
 ||mmaaxx.com^$third-party
 ||mmm-mmm.info^
+! mmstat.com added in 2022-06-23
+||mmstat.com^$third-party
 ||mntrlfjs.info^
 ||mntrtbjs.info^
 ||moatads.com^
