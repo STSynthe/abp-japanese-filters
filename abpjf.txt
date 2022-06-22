@@ -1,8 +1,8 @@
-[Adblock Plus 3.10]
+[Adblock Plus 3.10.1]
 ! Homepage: https://github.com/STSynthe/abp-japanese-filters
 ! Title: ABP Japanese filters(Edited by えむ/STSynthe)
-! Expires: 1 days 
-! Version: 20220523.01
+! Expires: 24 hours
+! Version: 202206230001
 !
 ! Last modified: 2021-05-26 20:51 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
@@ -334,10 +334,12 @@ yomiuri.co.jp##div.ad
 ! twitter.com added in 2022-05-11 update 2022-06-09
 twitter.com#?#h1[id^="accessible-list-"] + div[aria-label] > div > div:-abp-has(article > div > div > div > div > div:last-child > div:last-child > div:last-child > svg + div[id])
 twitter.com#?#h1[id^="accessible-list-"] + div[aria-label] > div > div:-abp-has(> div > div > div > div:last-child > div > svg + span)
-! www.amazon.co.jp added in 2022-05-15 update 2022-05-17 (試験中)
+! www.amazon.co.jp added in 2022-05-15 update 2022-06-23
 ##a[href*="//www.amazon.co.jp/exec/"][href*="-22"]
 ##a[href*="//www.amazon.co.jp/"][href*="tag="][href*="-22"][href*="ref"]
 ##a[href*="//amzn.to/"]
+www.amazon.co.jp##div.AdHolder
+www.amazon.co.jp##div.ad-center
 ! www.kobe-np.co.jp added in 2022-05-16
 kobe-np.co.jp##div#header > div.prAreaWrapper
 kobe-np.co.jp##div.ad
@@ -375,7 +377,7 @@ video.fc2.com##body > div.u-fixed-contents > div[class*="ad"]
 video.fc2.com##body > div.u-fixed-contents > div > div.clmn-side > div[class~="side_banner"]
 video.fc2.com##body > div.u-fixed-contents > div > div.clmn-side > div.ad_panelAR
 video.fc2.com##ul.list-subCont > li[style]
-! www.youtube.com added in 2022-06-10 update 2022-06-10  (試験中)
+! www.youtube.com added in 2022-06-10 update 2022-06-10
 www.youtube.com#$#override-property-read window.ytInitialPlayerResponse.adPlacements true
 www.youtube.com#$#override-property-read window.ytInitialPlayerResponse.playerAds true
 www.youtube.com#$#json-prune 'adPlacements playerAds'
