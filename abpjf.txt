@@ -4047,6 +4047,8 @@ www.youtube.com##div#player-ads
 ||pornwave.com^
 ||portkingric.net^
 ||postrelease.com^
+! pp.d2-apps.net added in 2022-06-23
+||pp.d2-apps.net^
 ||ppc-direct.com^$third-party
 ||ppjol.net^
 ||ppro.de^
@@ -4164,9 +4166,11 @@ www.youtube.com##div#player-ads
 ||raidrush.ws^$third-party
 ||rr0103180000.raku-syo.info^$third-party
 ||rakulog.com^$third-party
-! rakuten.co.jp added in 2022-06-23
-/com/img/home/t.*^$domain=rakuten.co.jp|r10s.jp
+! rakuten.co.jp added in 2022-06-23 update 2022-06-24
+||image.rakuten.co.jp/com/img/home/t.gif
+||r10s.jp/com/img/home/t.gif$domain=~event.rakuten.co.jp|~24.rakuten.co.jp
 ||affiliate.rakuten.co.jp^$third-party
+||rat.rakuten.co.jp^
 ||s-cdn.rmp.rakuten.co.jp/js/
 ||rakuword.com^$third-party
 ||rambler.ru^$third-party
