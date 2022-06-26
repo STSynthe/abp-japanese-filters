@@ -2,7 +2,7 @@
 ! Homepage: https://github.com/STSynthe/abp-japanese-filters
 ! Title: ABP Japanese filters(Edited by えむ/STSynthe)
 ! Expires: 24 hours
-! Version: 202206230001
+! Version: 202206270001
 !
 ! Last modified: 2021-05-26 20:51 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
@@ -83,7 +83,6 @@
 &publisherID=
 &publisherID=$document
 &publisherID=$popup
-&rakuten_affili=
 &random=*&referrer=
 &random=*&size=1x1&
 &tracker_id=
@@ -386,6 +385,8 @@ www.youtube.com#$#json-prune 'adPlacements playerAds'
 www.youtube.com#?#ytd-rich-item-renderer:-abp-has(> div > ytd-display-ad-renderer)
 www.youtube.com##div#masthead-ad
 www.youtube.com##div#player-ads
+! rakuten.co.jp added in 2022-06-27
+##a[href*="afl.rakuten.co.jp"]
 !
 ! Elements END
 !
@@ -4166,10 +4167,12 @@ www.youtube.com##div#player-ads
 ||raidrush.ws^$third-party
 ||rr0103180000.raku-syo.info^$third-party
 ||rakulog.com^$third-party
-! rakuten.co.jp added in 2022-06-23 update 2022-06-24
+! rakuten.co.jp added in 2022-06-23 update 2022-06-27
 ||image.rakuten.co.jp/com/img/home/t.gif
 ||r10s.jp/com/img/home/t.gif$domain=~event.rakuten.co.jp|~24.rakuten.co.jp
+||afl.rakuten.co.jp^$domain=~affiliate.rakuten.co.jp
 ||affiliate.rakuten.co.jp^$third-party
+||log.affiliate.rakuten.co.jp^
 ||rat.rakuten.co.jp^
 ||s-cdn.rmp.rakuten.co.jp/js/
 ||rakuword.com^$third-party
