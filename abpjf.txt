@@ -5404,39 +5404,8 @@ www.youtube.com##div#player-ads
 ||yieldtraffic.com^
 ||yieldtraffic.com^$popup
 ||yigao.com^$third-party
-||yimg.*/bdv/$domain=tumblr.com|yahoo.co.jp|yahoo.com
-||yimg.*/images/*/campaign/$domain=tumblr.com|yahoo.co.jp|~toku.yahoo.co.jp|yahoo.com
-||yimg.*/images/*/point$domain=tumblr.com|yahoo.co.jp|yahoo.com
-||yimg.*/images/*/pr/$domain=tumblr.com|yahoo.co.jp|yahoo.com
-||yimg.*/images/account/sp/*/reg/ccc/$domain=tumblr.com|yahoo.co.jp|yahoo.com
-! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
-! ||yimg.*/images/analytics/$domain=tumblr.com|yahoo.co.jp|yahoo.com
-! Moved to the Paranoid subscription to avoid a false positive blocking loading comments on each news at headlines.yahoo.co.jp. I think this is a tight-coupled bug because the filter is correctly blocking beacons or loggings. YAHOO JAPAN is essentially responsible for fixing it, May 16, 2015
-! ||yimg.*/images/ds/$domain=tumblr.com|yahoo.co.jp|yahoo.com
-||yimg.*/images/listing/$domain=tumblr.com|yahoo.co.jp|yahoo.com
-||yimg.*/images/market/$domain=tumblr.com|yahoo.co.jp|yahoo.com
-||yimg.*/images/news/newsSearch/$domain=tumblr.com|yahoo.co.jp|yahoo.com
-! Commented out a filter for beacon generator to avoid ReferenceError: YAHOO is not defined @ http://i.yimg.jp/lib/news/ult_1_1-min.js:1 , Jan 17, 2014
-! Even though this filter is commented out, the beacon server ybx.yahoo.co.jp is still blocked ;-)
-! ||yimg.*/images/rapid/$domain=tumblr.com|yahoo.co.jp|yahoo.com
-||yimg.*/images/settlecomtd/yjbfp/$domain=tumblr.com|yahoo.co.jp|yahoo.com
-||yimg.*/images/ycd/$domain=tumblr.com|yahoo.co.jp|yahoo.com
-||yimg.*/images/yjcard/$domain=tumblr.com|yahoo.co.jp|yahoo.com
-||yimg.*/js/geov*.$script,domain=tumblr.com|yahoo.co.jp|yahoo.com
-||yimg.*/lib/*/cs_$script,domain=tumblr.com|yahoo.co.jp|yahoo.com
-||yimg.*/lib/*/bc_$script,domain=tumblr.com|yahoo.co.jp|yahoo.com
-||yimg.*/lib/*/sda/$script,domain=tumblr.com|yahoo.co.jp|yahoo.com
-||yimg.*/lib/3pm/$script,domain=tumblr.com|yahoo.co.jp|yahoo.com
-||yimg.*/lib/bc/$script,domain=tumblr.com|yahoo.co.jp|yahoo.com
-||yimg.com/cv/$domain=yahoo.com
-||yimg.com/iv/$domain=yahoo.com
-||yimg.com/qb/$domain=yahoo.com
-||yimg.com/rq/$domain=yahoo.com
-||yimg.jp/cv/$domain=yahoo.co.jp
-||yimg.jp/iv/$domain=yahoo.co.jp
-||yimg.jp/qb/$domain=yahoo.co.jp
-||yimg.jp/rq/$domain=yahoo.co.jp
-! ||ads.yimg.$domain=tumblr.com|yahoo.co.jp|yahoo.com
+! yimg.jp added in 2022-06-28
+||yimg.jp^*/yads$script
 ||yiqiwin.com^$third-party
 ||yldbt.com^
 ||yldmgrimg.net^
