@@ -5313,8 +5313,12 @@ www.youtube.com##div#player-ads
 ||y8.com^$popup
 ||yabidos.com^
 ||yadro.ru^
+!
+! Yahoo系 既存リスト （削除予定） checked 2022-06-28 update 2022-06-28
+!
 ||yahoo.*/api/ovcm?
-||yahoo.*/b?
+! 競合によるコメントアウト
+! ||yahoo.*/b?
 ||yahoo.*/c?
 ||yahoo.*/gb.gif?
 ||yahoo.*/p.gif?$domain=tumblr.com|yahoo.co.jp|yahoo.com
@@ -5376,10 +5380,21 @@ www.youtube.com##div#player-ads
 ||ybx.yahoo.
 ||yeas.yahoo.
 ||yjaxc.yahoo.
-||yjtag.
+! 競合によるコメントアウト
+! ||yjtag.
 ||ysm.yahoo.
 ||im.yahooapis.
 ||shopping.yahooapis.$subdocument
+!
+! Yahoo系 既存リスト ^^^
+!
+! yjtag.jp added in 2022-06-28
+||yjtag.jp^
+! yahoo.co.jp added in 2022-06-28
+||yahoo.co.jp/b?
+||clb.yahoo.co.jp^
+||pvtag.yahoo.co.jp^
+||yjtag.yahoo.co.jp^
 ||yandeg.ru^$third-party
 ||an.yandex.ru^
 ||awaps.yandex.ru^
