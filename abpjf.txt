@@ -2,7 +2,7 @@
 ! Homepage: https://github.com/STSynthe/abp-japanese-filters
 ! Title: ABP Japanese filters(Edited by えむ/STSynthe)
 ! Expires: 24 hours
-! Version: 202206270001
+! Version: 202206290001
 !
 ! Last modified: 2021-05-26 20:51 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
@@ -15,8 +15,9 @@
 !
 !
 ! ########## Temporary white list START ##########
-! toku.yahoo.co.jp added in 2022-05-02 update 2022-06-09
-@@||s.yimg.jp/images/points/toku$image,script,stylesheet
+! yahoo.co.jp added in 2022-05-02 update 2022-06-28
+@@||s.yimg.jp/images/points/toku$image,script,stylesheet,domain=toku.yahoo.co.jp
+@@||s.yimg.jp/images/game$image,domain=games.yahoo.co.jp
 ! www.amazon.co.jp added in 2022-05-03 update 2022-05-17
 @@||www.amazon.co.jp/promotion/$xmlhttprequest
 @@||www.amazon.co.jp$generichide
@@ -323,12 +324,13 @@ nicovideo.jp##[class*="ad-bannar"]
 dic.nicovideo.jp##div#right-column > div:nth-child(2)
 ! outlook.live.com added in 2022-05-03
 outlook.live.com##div#app > div > div[tabindex="-1"] + div > div:nth-of-type(2) div > div > div > div[data-max-width="2400"] + div
-! yahoo.co.jp added in 2022-05-03
-www.yahoo.co.jp##article#Stream div > div > article:not([data-ual])
-! yahoo.co.jp added in 2022-05-09
-www.yahoo.co.jp#?#div#ContentWrapper > main > div > div:-abp-has(> div[id^="ssp_ydn_"])
+! chiebukuro.yahoo.co.jp added in 2022-06-29
+chiebukuro.yahoo.co.jp##div.SSContainer
 ! mail.yahoo.co.jp added in 2022-05-18
 mail.yahoo.co.jp#?#div.mainColumn > div[class]:last-child:-abp-has(> div[id*="ads"])
+! www.yahoo.co.jp added in 2022-05-03 update 2022-05-09
+www.yahoo.co.jp##article#Stream div > div > article:not([data-ual])
+www.yahoo.co.jp#?#div#ContentWrapper > main > div > div:-abp-has(> div[id^="ssp_ydn_"])
 ! yomiuri.co.jp added in 2022-05-08
 yomiuri.co.jp##div[class*="-ad-"]
 yomiuri.co.jp##div.ad
@@ -5388,11 +5390,15 @@ www.youtube.com##div#player-ads
 !
 ! Yahoo系 既存リスト ^^^
 !
+! yimg.jp added in 2022-06-29
+||s.yimg.jp/images/clear.gif
 ! yjtag.jp added in 2022-06-28
 ||yjtag.jp^
-! yahoo.co.jp added in 2022-06-28
+! yahoo.co.jp added in 2022-06-28 update 2022-06-28
 ||yahoo.co.jp/b?
 ||clb.yahoo.co.jp^
+||dsb.yahoo.co.jp^
+||logql.yahoo.co.jp^
 ||pvtag.yahoo.co.jp^
 ||yjtag.yahoo.co.jp^
 ||yandeg.ru^$third-party
