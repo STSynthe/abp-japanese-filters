@@ -43,6 +43,13 @@
 @@||www.smartnews-ads.com/img/help/standard-ads/
 ! www.aliexpress.com added in 2022-06-23
 @@||aliexpress.com/store/lego/pc/api/renderPageData.htm
+! minigame.aeriagames.jp added in 2022-06-29 （Yahoo!ゲーム）
+@@||minigame.aeriagames.jp^$~third-party,script,domain=minigame.aeriagames.jp
+! imasdk.googleapis.com added in 2022-06-29 （Yahoo!ゲーム）
+@@||imasdk.googleapis.com/js/core/bridge*.html$subdocument,domain=minigame.aeriagames.jp|games.wkb.jp|y.honkakuha.success-games.net|yahoo-jp.portal.connectedgamestore.com|japan.gamepix.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=minigame.aeriagames.jp|games.wkb.jp|y.honkakuha.success-games.net|yahoo-jp.portal.connectedgamestore.com|japan.gamepix.com
+! playzool.com added in 2022-06-29 （Yahoo!ゲーム）
+@@||playzool.com^$third-party,subdocument,domain=ycp.synk-casualgames.com
 !
 ! ---------- Default white list END ----------
 !
@@ -389,6 +396,13 @@ www.youtube.com##div#masthead-ad
 www.youtube.com##div#player-ads
 ! rakuten.co.jp added in 2022-06-27
 ##a[href*="afl.rakuten.co.jp"]
+! yahoo-jp.portal.connectedgamestore.com added in 2022-06-29 （Yahoo!ゲーム）
+yahoo-jp.portal.connectedgamestore.com###floatingAd
+yahoo-jp.portal.connectedgamestore.com###yahoo_jp_mpu
+! japan.gamepix.com added in 2022-06-29 （Yahoo!ゲーム）
+japan.gamepix.com###SquareBanner1
+japan.gamepix.com##.GamePix-Games-Ads
+japan.gamepix.com#?#div.row > div.w300:-abp-has(> #ColumnAdv)
 !
 ! Elements END
 !
