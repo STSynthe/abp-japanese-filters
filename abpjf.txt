@@ -335,9 +335,12 @@ outlook.live.com##div#app > div > div[tabindex="-1"] + div > div:nth-of-type(2) 
 chiebukuro.yahoo.co.jp##div.SSContainer
 ! mail.yahoo.co.jp added in 2022-05-18
 mail.yahoo.co.jp#?#div.mainColumn > div[class]:last-child:-abp-has(> div[id*="ads"])
-! www.yahoo.co.jp added in 2022-05-03 update 2022-05-09
+! yahoo.co.jp added in 2022-05-03 update 2022-07-01
 www.yahoo.co.jp##article#Stream div > div > article:not([data-ual])
 www.yahoo.co.jp#?#div#ContentWrapper > main > div > div:-abp-has(> div[id^="ssp_ydn_"])
+news.yahoo.co.jp##div.adWrap
+gyao.yahoo.co.jp##aside > div[class^="overlay-ad"]
+gyao.yahoo.co.jp##main > div div[class^="timeline-ad"]
 ! yomiuri.co.jp added in 2022-05-08
 yomiuri.co.jp##div[class*="-ad-"]
 yomiuri.co.jp##div.ad
@@ -403,6 +406,8 @@ yahoo-jp.portal.connectedgamestore.com###yahoo_jp_mpu
 japan.gamepix.com###SquareBanner1
 japan.gamepix.com##.GamePix-Games-Ads
 japan.gamepix.com#?#div.row > div.w300:-abp-has(> #ColumnAdv)
+! kaereba.com added in 2022-07-01
+##a[href*="//af.moshimo.com/af/"]
 !
 ! Elements END
 !
@@ -3542,7 +3547,9 @@ japan.gamepix.com#?#div.row > div.w300:-abp-has(> #ColumnAdv)
 ||morenews3.net^
 ||moselats.com^
 ||moselats.com^$popup
+! moshimo.com added in 2022-07-01
 ||moshimo.com^$third-party
+||moshimo.com^$popup,domain=~kaereba.com
 ||webstats.motigo.com^$third-party
 ||motionlink.jp^$third-party
 ||mouseflow.com^$third-party
