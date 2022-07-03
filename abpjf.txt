@@ -1067,6 +1067,8 @@ japan.gamepix.com#?#div.row > div.w300:-abp-has(> #ColumnAdv)
 ||amzonnews.club^
 ||anal-profond.net^
 ||anchorfree.net^$third-party
+! ancientact.com added in 2022-07-03
+||ancientact.com^$third-party
 ||andomedia.com^
 ||angel-group.net^$third-party
 ||angel-live.com^$third-party
@@ -1933,6 +1935,9 @@ japan.gamepix.com#?#div.row > div.w300:-abp-has(> #ColumnAdv)
 ||diamond.jp/oo/d/
 ||diamond.jp/mwimgs/f/b/
 ||diamond.jp^*/welcome.$script
+! storage.didna.io added in 2022-07-03
+||storage.didna.io^
+||storage.googleapis.com/didna_hb/nordot/nordot/didna_config.js^$domain=nordot.app
 ||didoga.ru^
 ||diegrossechance.net$popup
 ||dificaux.com^
@@ -3784,6 +3789,8 @@ japan.gamepix.com#?#div.row > div.w300:-abp-has(> #ColumnAdv)
 ||nomura.co.jp/resource/image/sideparts/
 ||noproblemppc.com^$third-party
 ||noptes.ru^
+! log.nordot.jp added in 2022-07-03
+||log.nordot.jp^
 ||notesoft.co^
 ||novamov.com^$third-party
 ||novostimira.$third-party
@@ -4677,6 +4684,8 @@ japan.gamepix.com#?#div.row > div.w300:-abp-has(> #ColumnAdv)
 ||solmiral.com^
 ||solocpm.com^$third-party
 ||solocpc.com^$third-party
+! static.solutionshindsight.net added in 2022-07-03
+||static.solutionshindsight.net^
 ||solvemedia.com^$third-party
 ||sonicomusica.com^$third-party
 ||sonobi.com^$third-party
