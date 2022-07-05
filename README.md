@@ -2,19 +2,19 @@
 
 私（STSynthe a.k.a. えむ）個人が手入れしている日本国内Adblock Plus用フィルタです。
 
-元のABP Japanese filtersは問題があり[^badboy]、個人的に気になる部分の排除・最適化しました。今まで自分用として使っていましたが、現在（2022年5月中旬）はこれを共有して使うのは自由です。
+元のABP Japanese filtersは問題があり[^badboy]、個人的に気になる部分の排除・最適化しました。
 
 **私への連絡は「[issues](https://github.com/STSynthe/abp-japanese-filters/issues)」にて**。<span lang="en">**Contact me at "[issues](https://github.com/STSynthe/abp-japanese-filters/issues)"**.</span>
 
 # 方針
 
 * 短いフィルタになるべく頼らない
-* 広告主がお金を払って掲載しているコンテンツをいろんな言い方があるがとりあえず「広告」と呼び、それを基本ブロックの対象とする
+* 広告主がお金を払って掲載しているコンテンツをいろんな言い方があるが、とりあえず「広告」と呼び、それを基本ブロックの対象とする
 * 慎ましいテキスト広告をできる限り排除しない
 * 慎ましい自社広告をできる限り排除しない
 * エンターテイメント的な広告をできる限り排除しない（例：ニコニ広告、見返りのないバナーリンク、人道的もしくは[人権道徳的](https://www.youtube.com/watch?v=GjVCYhpkJiA)な広告など）
-* 解析系、トラッキング系のコードをブロックする（積極的な取り組みをしない）
-* 広告が抜けた事による過剰で無駄なスペースが広がっているエレメントの非表示（ただし積極的な取り組みをしない）
+* 解析系、トラッキング系のコードをブロックするが、積極的な取り組みをしない
+* 広告が抜けた事による過剰で無駄なスペースが広がっているエレメントの非表示も行うが、積極的な取り組みをしない
 * 突発的に発生する有害（フィッシング、スパイウェアなど）なサイトは排除しない[^harmful]
 
 # 購読
@@ -56,6 +56,7 @@ ABP Japanese filtersとは別に
 * [Git](https://github.com/STSynthe/abp-japanese-filters)
 * [コミットログ](https://github.com/STSynthe/abp-japanese-filters/commits/master)
 * [stsynthe.github.io](https://stsynthe.github.io/abp-japanese-filters/)
+* [戯言ノート](https://stsynthe.github.io/abp-japanese-filters/NOTE)
 
 ## tools
 
