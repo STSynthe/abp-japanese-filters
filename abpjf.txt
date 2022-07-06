@@ -50,6 +50,8 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=minigame.aeriagames.jp|games.wkb.jp|y.honkakuha.success-games.net|yahoo-jp.portal.connectedgamestore.com|japan.gamepix.com
 ! playzool.com added in 2022-06-29 （Yahoo!ゲーム）
 @@||playzool.com^$third-party,subdocument,domain=ycp.synk-casualgames.com
+! steamstatic.com added in 2022-07-06
+@@||akamai.steamstatic.com^*/promo/$script,image,stylesheet,domain=store.steampowered.com
 !
 ! ---------- Default white list END ----------
 !
