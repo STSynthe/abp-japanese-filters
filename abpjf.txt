@@ -52,6 +52,8 @@
 @@||playzool.com^$third-party,subdocument,domain=ycp.synk-casualgames.com
 ! steamstatic.com added in 2022-07-06
 @@||akamai.steamstatic.com^*/promo/$script,image,stylesheet,domain=store.steampowered.com
+! yodobashi.com added in 2022-07-07
+@@||image.yodobashi.com/promotion/$image,domain=www.yodobashi.com
 !
 ! ---------- Default white list END ----------
 !
