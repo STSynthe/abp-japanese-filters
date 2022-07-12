@@ -1,8 +1,8 @@
-[Adblock Plus 3.10.1]
+[Adblock Plus 3.13]
 ! Homepage: https://github.com/STSynthe/abp-japanese-filters
 ! Title: ABP Japanese filters(Edited by えむ/STSynthe)
 ! Expires: 24 hours
-! Version: 202206290001
+! Version: 202207120001
 !
 ! Last modified: 2021-05-26 20:51 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
@@ -338,10 +338,10 @@ outlook.live.com##div#app > div > div[tabindex="-1"] + div > div:nth-of-type(2) 
 ! chiebukuro.yahoo.co.jp added in 2022-06-29
 chiebukuro.yahoo.co.jp##div.SSContainer
 ! mail.yahoo.co.jp added in 2022-05-18
-mail.yahoo.co.jp#?#div.mainColumn > div[class]:last-child:-abp-has(> div[id*="ads"])
+mail.yahoo.co.jp#?#div.mainColumn > div[class]:last-child:has(> div[id*="ads"])
 ! yahoo.co.jp added in 2022-05-03 update 2022-07-01
 www.yahoo.co.jp##article#Stream div > div > article:not([data-ual])
-www.yahoo.co.jp#?#div#ContentWrapper > main > div > div:-abp-has(> div[id^="ssp_ydn_"])
+www.yahoo.co.jp#?#div#ContentWrapper > main > div > div:has(> div[id^="ssp_ydn_"])
 news.yahoo.co.jp##div.adWrap
 gyao.yahoo.co.jp##aside > div[class^="overlay-ad"]
 gyao.yahoo.co.jp##main > div div[class^="timeline-ad"]
@@ -349,8 +349,8 @@ gyao.yahoo.co.jp##main > div div[class^="timeline-ad"]
 yomiuri.co.jp##div[class*="-ad-"]
 yomiuri.co.jp##div.ad
 ! twitter.com added in 2022-05-11 update 2022-06-09
-twitter.com#?#h1[id^="accessible-list-"] + div[aria-label] > div > div:-abp-has(article > div > div > div > div > div:last-child > div:last-child > div:last-child > svg + div[id])
-twitter.com#?#h1[id^="accessible-list-"] + div[aria-label] > div > div:-abp-has(> div > div > div > div:last-child > div > svg + span)
+twitter.com#?#h1[id^="accessible-list-"] + div[aria-label] > div > div:has(article > div > div > div > div > div:last-child > div:last-child > div:last-child > svg + div[id])
+twitter.com#?#h1[id^="accessible-list-"] + div[aria-label] > div > div:has(> div > div > div > div:last-child > div > svg + span)
 ! www.amazon.co.jp added in 2022-05-15 update 2022-06-23
 ##a[href*="//www.amazon.co.jp/exec/"][href*="-22"]
 ##a[href*="//www.amazon.co.jp/"][href*="tag="][href*="-22"][href*="ref"]
@@ -360,12 +360,12 @@ www.amazon.co.jp##div.ad-center
 ! www.kobe-np.co.jp added in 2022-05-16
 kobe-np.co.jp##div#header > div.prAreaWrapper
 kobe-np.co.jp##div.ad
-kobe-np.co.jp#?#div#fixed-navi > div.banner:-abp-has(script)
+kobe-np.co.jp#?#div#fixed-navi > div.banner:has(script)
 ! weathernews.jp added in 2022-05-17
 weathernews.jp#$#override-property-read WNIAds.prototype.init_ads null
 weathernews.jp#$#override-property-read use_sticky_ad false
 ! kyodo.co.jp added in 2022-05-17
-kyodo.co.jp#?#div#Sub > div.textwidget > div.box > a[onclick]:-abp-has(img)
+kyodo.co.jp#?#div#Sub > div.textwidget > div.box > a[onclick]:has(img)
 ! huffingtonpost.* added in 2022-05-18 update 2022-05-26
 huffingtonpost.jp,huffpost.com,huffingtonpost.co.uk,huffingtonpost.es,huffingtonpost.fr,huffingtonpost.gr,huffingtonpost.it,huffingtonpost.kr##body > div > div[style*="height"]
 huffingtonpost.jp,huffpost.com,huffingtonpost.co.uk,huffingtonpost.es,huffingtonpost.fr,huffingtonpost.gr,huffingtonpost.it,huffingtonpost.kr##div[class~="ad-container"]
@@ -375,14 +375,14 @@ huffingtonpost.jp,huffpost.com,huffingtonpost.co.uk,huffingtonpost.es,huffington
 ! afpbb.com added in 2022-05-18
 afpbb.com##aside.bnr
 ! ameblo.jp added in 2022-05-20
-ameblo.jp#?#div:-abp-has(> div[data-aid][style*="height"])
+ameblo.jp#?#div:has(> div[data-aid][style*="height"])
 ameblo.jp#$#freeze-element div#app ''
 ! oricon.co.jp added in 2022-05-23
 oricon.co.jp##div#container .block-header-banner
 ! comic-days.com added in 2022-05-24 update 2022-05-26
 comic-days.com##body#page-viewer > section > div#content div.link-slot
 ! xrea.com added in 2022-05-25
-xrea.com#?#body > div[style*="display"]:first-child:-abp-has(> a[href*="adref="])
+xrea.com#?#body > div[style*="display"]:first-child:has(> a[href*="adref="])
 ! hateblo.jp added in 2022-05-26
 hateblo.jp##article.sleeping-ads
 hateblo.jp##div.google-afc-image
@@ -398,7 +398,7 @@ video.fc2.com##ul.list-subCont > li[style]
 www.youtube.com#$#override-property-read window.ytInitialPlayerResponse.adPlacements true
 www.youtube.com#$#override-property-read window.ytInitialPlayerResponse.playerAds true
 www.youtube.com#$#json-prune 'adPlacements playerAds'
-www.youtube.com#?#ytd-rich-item-renderer:-abp-has(> div > ytd-display-ad-renderer)
+www.youtube.com#?#ytd-rich-item-renderer:has(> div > ytd-display-ad-renderer)
 www.youtube.com##div#masthead-ad
 www.youtube.com##div#player-ads
 ! rakuten.co.jp added in 2022-06-27
@@ -409,7 +409,7 @@ yahoo-jp.portal.connectedgamestore.com###yahoo_jp_mpu
 ! japan.gamepix.com added in 2022-06-29 （Yahoo!ゲーム）
 japan.gamepix.com###SquareBanner1
 japan.gamepix.com##.GamePix-Games-Ads
-japan.gamepix.com#?#div.row > div.w300:-abp-has(> #ColumnAdv)
+japan.gamepix.com#?#div.row > div.w300:has(> #ColumnAdv)
 ! kaereba.com added in 2022-07-01
 ##a[href*="//af.moshimo.com/af/"]
 ! www.aliexpress.com added in 2022-07-12
