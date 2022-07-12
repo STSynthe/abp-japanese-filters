@@ -41,8 +41,8 @@
 @@||apple.com/*promo
 ! smartnews-ads.com added in 2022-05-24
 @@||www.smartnews-ads.com/img/help/standard-ads/
-! www.aliexpress.com added in 2022-06-23
-@@||aliexpress.com/store/lego/pc/api/renderPageData.htm
+! www.aliexpress.com added in 2022-06-23 update 2022-07-12 （要検証）
+! @@||aliexpress.com/store/lego/pc/api/renderPageData.htm
 ! minigame.aeriagames.jp added in 2022-06-29 （Yahoo!ゲーム）
 @@||minigame.aeriagames.jp^$~third-party,script,domain=minigame.aeriagames.jp
 ! imasdk.googleapis.com added in 2022-06-29 （Yahoo!ゲーム）
@@ -412,6 +412,8 @@ japan.gamepix.com##.GamePix-Games-Ads
 japan.gamepix.com#?#div.row > div.w300:-abp-has(> #ColumnAdv)
 ! kaereba.com added in 2022-07-01
 ##a[href*="//af.moshimo.com/af/"]
+! www.aliexpress.com added in 2022-07-12
+aliexpress.com#?#div.bottom-recommendation div > a:has(> div > span[style])
 !
 ! Elements END
 !
@@ -1013,6 +1015,8 @@ japan.gamepix.com#?#div.row > div.w300:-abp-has(> #ColumnAdv)
 ||click.alibaba.com^$popup
 ||offer.alibaba.com^
 ||offer.alibaba.com^$popup
+! www.aliexpress.com added in 2022-07-12
+||assets.alicdn.com/g/alilog/
 ||alimama.cn^$third-party
 ||alistcloud.com^
 ||allabout.co.jp/js/aa/
