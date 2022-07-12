@@ -1403,7 +1403,8 @@ japan.gamepix.com#?#div.row > div.w300:-abp-has(> #ColumnAdv)
 ||brazzers.com^$third-party
 ||brealtime.com^$third-party
 ||breedac.com^
-||brightcove.com/1pix.
+! brightcove.com added in 2022-07-12
+||metrics.brightcove.com^
 ||brightonclick.com^
 ||brilig.com^$third-party
 ||broadstreetads.com^$third-party
