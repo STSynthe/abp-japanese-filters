@@ -2345,6 +2345,8 @@ okwave.jp##div[id^="okwave_solution_wrap"]
 ||flirtporn.com^
 ||flirtvisio.com^
 ||flite.com^$third-party
+! flux-cdn.com added in 2022-07-14
+||flux-cdn.com^$third-party
 ||flvmplayer.com^$popup
 ||flvupdate.com^$popup
 ||flxpxl.com^
