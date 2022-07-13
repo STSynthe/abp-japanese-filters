@@ -15,9 +15,10 @@
 !
 !
 ! ########## Temporary white list START ##########
-! yahoo.co.jp added in 2022-05-02 update 2022-06-28
+! yahoo.co.jp added in 2022-05-02 update 2022-07-14
 @@||s.yimg.jp/images/points/toku$image,script,stylesheet,domain=toku.yahoo.co.jp
 @@||s.yimg.jp/images/game$image,domain=games.yahoo.co.jp
+@@||s.yimg.jp/images/auct/$image,script,stylesheet,domain=auctions.yahoo.co.jp
 ! www.amazon.co.jp added in 2022-05-03 update 2022-05-17
 @@||www.amazon.co.jp/promotion/$xmlhttprequest
 @@||www.amazon.co.jp$generichide
@@ -414,6 +415,9 @@ japan.gamepix.com#?#div.row > div.w300:has(> #ColumnAdv)
 ##a[href*="//af.moshimo.com/af/"]
 ! www.aliexpress.com added in 2022-07-12
 aliexpress.com#?#div.bottom-recommendation div > a:has(> div > span[style])
+! okwave.jp added in 2022-07-14
+okwave.jp##[class*="adfunnel"]
+okwave.jp##div[id^="okwave_solution_wrap"]
 !
 ! Elements END
 !
