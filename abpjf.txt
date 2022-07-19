@@ -375,9 +375,12 @@ huffingtonpost.jp,huffpost.com,huffingtonpost.co.uk,huffingtonpost.es,huffington
 huffingtonpost.jp,huffpost.com,huffingtonpost.co.uk,huffingtonpost.es,huffingtonpost.fr,huffingtonpost.gr,huffingtonpost.it,huffingtonpost.kr##div[class*="ad_wrapper_"]
 ! afpbb.com added in 2022-05-18
 afpbb.com##aside.bnr
-! ameblo.jp added in 2022-05-20
+! ameblo.jp added in 2022-05-20 update 2022-07-20
 ameblo.jp#?#div:has(> div[data-aid][style*="height"])
-ameblo.jp#$#freeze-element div#app ''
+ameblo.jp##div#app > footer + div[aria-hidden]
+ameblo.jp##div.subContents > div.subAdBannerHeader
+ameblo.jp##div.subContents > div.subAdBannerHeader + div[style]
+ameblo.jp##div[data-uranus-component="entryAd"]
 ! oricon.co.jp added in 2022-05-23
 oricon.co.jp##div#container .block-header-banner
 ! comic-days.com added in 2022-05-24 update 2022-05-26
