@@ -55,6 +55,9 @@
 @@||akamai.steamstatic.com^*/promo/$script,image,stylesheet,domain=store.steampowered.com
 ! yodobashi.com added in 2022-07-07
 @@||image.yodobashi.com/promotion/$image,domain=www.yodobashi.com
+! ameba.jp added in 2022-07-20 （ news.ameba.jp の「特集」や「おすすめ」の対応 https://github.com/STSynthe/abp-japanese-filters/commit/c6a654538d6fb669f58ca7f08073b44489a340ab#r74050657 ）
+@@||ad.pr.ameba.jp/own/adc/*^$xmlhttprequest,domain=news.ameba.jp
+@@||ad.pr.ameba.jp/tpc/list/*^$xmlhttprequest,domain=news.ameba.jp
 !
 ! ---------- Default white list END ----------
 !
@@ -1067,8 +1070,8 @@ okwave.jp##div[id^="okwave_solution_wrap"]
 ||simple-cdn.s3.amazonaws.com^
 ||videosfr.s3.amazonaws.com^
 ||amazon-cornerstone.com^
-! ad.pr.ameba.jp 要審議（理由：自社プロモーションの可能性、news.ameba.jpの不具合） https://github.com/STSynthe/abp-japanese-filters/commit/c6a654538d6fb669f58ca7f08073b44489a340ab#r74050657 update 2022-05-22
-! ||ad.pr.ameba.jp^
+! ameba.jp 要審議（理由：自社プロモーションの可能性、news.ameba.jpの不具合）(2022-07-20追記：一部を例外にして復帰) https://github.com/STSynthe/abp-japanese-filters/commit/c6a654538d6fb669f58ca7f08073b44489a340ab#r74050657 update 2022-07-20
+||ad.pr.ameba.jp^
 ||ln.ameba.jp^
 ||sy.ameblo.jp^
 ||amiami.jp^$third-party
