@@ -3762,6 +3762,8 @@ okwave.jp##div[id^="okwave_solution_wrap"]
 ||mtc.nhk.or.jp^
 ||mtcs.nhk.or.jp^
 ||nhncorp.jp^$third-party
+! nicovideo.jp added in 2022-07-21
+||res.ads.nicovideo.jp/assets/js/ads2.js^$script
 ||nielsen.com^$third-party
 ||nifty.com^*/match_com-module-
 ||business.nifty.com/articles/*/banner/$image,object,subdocument
