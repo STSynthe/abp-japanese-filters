@@ -2,7 +2,7 @@
 ! Homepage: https://github.com/STSynthe/abp-japanese-filters
 ! Title: ABP Japanese filters(Edited by えむ/STSynthe)
 ! Expires: 24 hours
-! Version: 202207120001
+! Version: 202207310002
 !
 ! Last modified: 2021-05-26 20:51 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
@@ -408,8 +408,9 @@ www.youtube.com#$#json-prune 'adPlacements playerAds'
 www.youtube.com#?#ytd-rich-item-renderer:has(> div > ytd-display-ad-renderer)
 www.youtube.com##div#masthead-ad
 www.youtube.com##div#player-ads
-! rakuten.co.jp added in 2022-06-27
+! rakuten.co.jp added in 2022-06-27 added in 2022-07-31
 ##a[href*="afl.rakuten.co.jp"]
+search.rakuten.co.jp##div[data-track-type="cpc"]
 ! yahoo-jp.portal.connectedgamestore.com added in 2022-06-29 （Yahoo!ゲーム）
 yahoo-jp.portal.connectedgamestore.com###floatingAd
 yahoo-jp.portal.connectedgamestore.com###yahoo_jp_mpu
