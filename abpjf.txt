@@ -3420,6 +3420,8 @@ okwave.jp##div[id^="okwave_solution_wrap"]
 ||mediaunder.$third-party
 ||mediavoice.com^$third-party
 ||mediav.com^$third-party
+! mediaweaver.jp added in 2022-07-31
+||mediaweaver.jp^$third-party
 ! for Android, reporeted by 名無し a.k.a. 匿名 via blog, Apr 6, 2013, updated Apr 27, 2013
 ||mediba.jp^$third-party
 ! for Android, reporeted by 名無し a.k.a. 匿名 via blog, Apr 6, 2013, updated Apr 27, 2013
@@ -4975,6 +4977,8 @@ okwave.jp##div[id^="okwave_solution_wrap"]
 ||touslesfilmsx.com^
 ||toutapp.com^$third-party
 ||toutiles.com^
+! toyokeizai.net added in 2022-07-31
+||toyokeizai.net/oo/*$image,script
 ||tpucdn.com/images/b/$object,domain=techpowerup.com
 ||tracer.jp^$third-party
 ||trackalyzer.com^
