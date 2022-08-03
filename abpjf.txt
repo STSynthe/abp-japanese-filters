@@ -425,6 +425,8 @@ aliexpress.com#?#div.bottom-recommendation div > a:has(> div > span[style])
 ! okwave.jp added in 2022-07-14
 okwave.jp##[class*="adfunnel"]
 okwave.jp##div[id^="okwave_solution_wrap"]
+! e-words.jp added in 2022-08-04
+e-words.jp###forvisitors
 !
 ! Elements END
 !
@@ -2103,7 +2105,9 @@ okwave.jp##div[id^="okwave_solution_wrap"]
 ||e-pagerank.net^$third-party
 ||e-planning.net^$third-party
 ||e-viral.com^$third-party
+! e-words.jp added in 2022-08-04
 ||e-words.jp/adcom.
+||e-words.jp/noads.x
 ||ad.e-words.jp^
 ||e97527f0.se^
 ||e97527f0.se^$popup
