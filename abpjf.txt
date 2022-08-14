@@ -710,6 +710,8 @@ e-words.jp###forvisitors
 ||admagnet.net^$third-party
 ||admailtiser.com^$third-party
 ||adman.gr^$third-party
+! admantx.com added in 2022-08-15
+||admantx.com/admantx/service^
 ||admarvel.com^$third-party
 ||admaster.net^$third-party
 ||admatrix.jp^$third-party
@@ -4331,7 +4333,8 @@ e-words.jp###forvisitors
 ||retreaver.com^$third-party
 ||returso.com^
 ||reunice.com^
-||s2.reutersmedia.net^$script
+! reutersmedia.net added in 2022-08-15
+||reutersmedia.net/resources_v2/js/core-tracking.js^
 ||rev2pub.com^
 ||rev2pub.com^$popup
 ||revcontent.com^$third-party
@@ -4488,6 +4491,8 @@ e-words.jp###forvisitors
 ||seesaa.jp/match/
 ||match.seesaa.jp^
 ||seethisinaction.com^$third-party
+! segment.io added in 2022-08-15
+||api.segment.io^
 ||segs.jp^
 ||sekihi.net/parts/$third-party
 ||sekindo.com^$popup
