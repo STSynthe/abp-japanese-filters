@@ -2,7 +2,7 @@
 ! Homepage: https://github.com/STSynthe/abp-japanese-filters
 ! Title: ABP Japanese filters(Edited by えむ/STSynthe)
 ! Expires: 24 hours
-! Version: 202208040002
+! Version: 202209110001
 !
 ! Last modified: 2021-05-26 20:51 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
@@ -60,6 +60,8 @@
 ! ameba.jp added in 2022-07-20 （ news.ameba.jp の「特集」や「おすすめ」の対応 https://github.com/STSynthe/abp-japanese-filters/commit/c6a654538d6fb669f58ca7f08073b44489a340ab#r74050657 ）
 @@||ad.pr.ameba.jp/own/adc/*^$xmlhttprequest,domain=news.ameba.jp
 @@||ad.pr.ameba.jp/tpc/list/*^$xmlhttprequest,domain=news.ameba.jp
+! ads.line.me added in 2022-09-11
+@@||ads.line.me/public-docs/
 !
 ! ---------- Default white list END ----------
 !
@@ -3187,6 +3189,8 @@ e-words.jp###forvisitors
 ! Commented out to avoid false positives because more subdomains are used than expected like cdn-matome.line-apps.com at matome.naver.jp, Nov 19, 2016
 ! Need exact subdomain or path
 ! ||line-apps.com^$third-party
+! ads.line.me added in 2022-09-11
+||ads.line.me^$third-party
 ||lineni.ru^
 ||linezing.com^$third-party
 ||link-a.net^$third-party
