@@ -2,7 +2,7 @@
 ! Homepage: https://github.com/STSynthe/abp-japanese-filters
 ! Title: ABP Japanese filters(Edited by えむ/STSynthe)
 ! Expires: 24 hours
-! Version: 202209110001
+! Version: 202211230001
 !
 ! Last modified: 2021-05-26 20:51 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
@@ -15,12 +15,13 @@
 !
 !
 ! ########## Temporary white list START ##########
-! yahoo.co.jp added in 2022-05-02 update 2022-08-04
+! yahoo.co.jp added in 2022-05-02 update 2022-11-23
 @@||s.yimg.jp/images/points/toku$image,script,stylesheet,domain=toku.yahoo.co.jp
 @@||s.yimg.jp/images/game$image,domain=games.yahoo.co.jp
 @@||s.yimg.jp/images/auct/$image,script,stylesheet,domain=auctions.yahoo.co.jp
 @@||s.yimg.jp/images/marcom_pr/$image,script,stylesheet,domain=promo-campaign.yahoo.co.jp
 @@||s.yimg.jp/images/shp_$image,script,stylesheet,domain=shopping.yahoo.co.jp
+@@||s.yimg.jp/images/*logger*.js^$script,domain=shopping.yahoo.co.jp
 ! www.amazon.co.jp added in 2022-05-03 update 2022-05-17
 @@||www.amazon.co.jp/promotion/$xmlhttprequest
 @@||www.amazon.co.jp$generichide
