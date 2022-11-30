@@ -2,7 +2,7 @@
 ! Homepage: https://github.com/STSynthe/abp-japanese-filters
 ! Title: ABP Japanese filters(Edited by えむ/STSynthe)
 ! Expires: 24 hours
-! Version: 202211300001
+! Version: 202211300002
 !
 ! Last modified: 2021-05-26 20:51 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
@@ -443,8 +443,6 @@ e-words.jp###forvisitors
 ||00h10.com^
 ||0427d7.se^$popup
 ||08lkk.com/*/data/attachment/common/cf/
-||0aac4e6a54c170b0.se^
-||0aac4e6a54c170b0.se^$popup
 ||0info.net^$third-party
 ||0pb.org^
 ||1-clic-credit.com^
@@ -873,17 +871,6 @@ e-words.jp###forvisitors
 ||adultrewardsurvey.com^$popup
 ||adultrewardsurvey.com^$third-party
 ||adurr.com^
-! Commented out duplicated filters [https://github.com/k2jp/abp-japanese-filters/issues/9 reported] by [https://github.com/SMed79 SMed79], Jun 20, 2015
-! ||adv-adserver.com^$third-party
-||adv-first.ru^
-|http://adv2*.ru^
-|https://adv2*.ru^
-|http://adv4*.ru^
-|https://adv4*.ru^
-|http://adv6*.ru^
-|https://adv6*.ru^
-|http://adv8*.ru^
-|https://adv8*.ru^
 ||advantagz.com^
 ||advd69.net^
 ||advenueplatform.com^$third-party
@@ -901,16 +888,6 @@ e-words.jp###forvisitors
 ||advertpay.net^
 ||advertserve.com^$third-party
 ||advertstream.com^$third-party
-||advertup0.com^
-||advertup1.com^
-||advertup2.com^
-||advertup3.com^
-||advertup4.com^
-||advertup5.com^
-||advertup6.com^
-||advertup7.com^
-||advertup8.com^
-||advertup9.com^
 ||advg.jp^$third-party
 ||adviamedias.com^
 ||advidi.com^$third-party
@@ -1243,8 +1220,6 @@ e-words.jp###forvisitors
 ||axia-hakusan.com^
 ||axyqtllqnj.ru^
 ||ad.axyzconductor.jp^
-|http://ay.gy^$popup
-|https://ay.gy^$popup
 ||ayads.co^
 ||azerty.solutions^
 ||azet.sk^$third-party
@@ -1704,8 +1679,6 @@ e-words.jp###forvisitors
 ||cntrafficpro.com^
 ||cnxad.com^$third-party
 ||cnzz.com^$third-party
-|http:*co-co-co.co^$popup
-|https:*co-co-co.co^$popup
 ||coadvertise.com^$third-party
 ||analytics.cocolog-nifty.com^
 ||ax*.cocolog-nifty.com^
@@ -1860,10 +1833,6 @@ e-words.jp###forvisitors
 ||cybermonitor.com^
 ||cyberwing.co.jp^$third-party
 ||ad.cyzo.com^
-|http://d.pr^
-|http://d.pr^$document
-|https://d.pr^
-|https://d.pr^$document
 ||d-064.com^$third-party
 ||d-suite.jp^$third-party
 ||d03x2011.com^
@@ -2691,7 +2660,6 @@ e-words.jp###forvisitors
 ||huagu.com^$third-party
 ||hubapi.com^$third-party
 ||hubrus.com^$third-party
-||hubspot.$third-party
 ||hubspotqa.com^$third-party
 ||huffingtonpost.com/abpTest/
 ||localcontent.huffingtonpost.com^
@@ -2725,8 +2693,6 @@ e-words.jp###forvisitors
 ||hyperion.gawker.com^
 ||hyperpromote.com^
 ||hyperstat.biz^
-|http:*.i.ua^$third-party
-|https:*.i.ua^$third-party
 ||i-mobile.co.jp^$third-party
 ||i-nature.net^$third-party
 ||i2ad.jp^
@@ -2948,8 +2914,6 @@ e-words.jp###forvisitors
 ||ixtyted.ru^
 ||izerdpjs.info^
 ||iznalik.ru^
-|http://j.gs^$popup
-|https://j.gs^$popup
 ||j-a-net.jp^$third-party
 ||jadedi.com^
 ||jaoohqvqda.ru^
@@ -3977,8 +3941,6 @@ e-words.jp###forvisitors
 ||padstm.com^
 ||pagefair.$third-party
 ||pageimage.net^
-|http:*pagoda*.com^
-|https:*pagoda*.com^
 ||go.palmodeal.com^
 ||paltip.com^$third-party
 ||papoto.com^$third-party
@@ -4073,8 +4035,6 @@ e-words.jp###forvisitors
 ||plugrush.com^$third-party
 ||plymedia.com^$third-party
 ||pneus-en-ligne.com^
-|http:*.po.st^$third-party
-|https:*.po.st^$third-party
 ||pochioku.jp^$third-party
 ||point-ad-game.com^$third-party
 ||pointroll.com^$third-party
@@ -4199,8 +4159,6 @@ e-words.jp###forvisitors
 ||pya.cc/banner/bb_
 ||pzcdn.com^
 ||pzoifaum.info^
-|http://q.gs^$popup
-|https://q.gs^$popup
 ||q1media.com^$third-party
 ||q1mediahydraplatform.com^$third-party
 ||qiyou.com^$third-party
@@ -4427,7 +4385,6 @@ e-words.jp###forvisitors
 ||s-msn.com/br/*/report.$script
 ||s-p-o-n-s-o-r.com^
 ||s-tanno.com^$third-party
-|http://s3.ua^
 ||sail-horizon.com^
 ||sailthru.com^$third-party
 ||saisoncard.co.jp/netanswer/kakakucom/
@@ -5136,8 +5093,6 @@ e-words.jp###forvisitors
 ||unrulymedia.com^
 ||unthem.com^
 ||untily.com^
-|http:*.up.ru^
-|https:*.up.ru^
 ||update-apps.com^
 ||updatemybrowser.net$popup
 ||uploadedtab.com^
@@ -5335,10 +5290,6 @@ e-words.jp###forvisitors
 ||ker.www.wp.pl^
 ||wpadsvr.com^
 ||wpadsvr.com^$popup
-|http:*.ws.md^$third-party
-|http://ws.md^$third-party
-|https:*.ws.md^$third-party
-|https://ws.md^$third-party
 ||wslinx.com^$third-party
 ||ad.wsod.com^
 ||wt-rotator.
