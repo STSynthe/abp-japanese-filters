@@ -2,7 +2,7 @@
 ! Homepage: https://github.com/STSynthe/abp-japanese-filters
 ! Title: ABP Japanese filters(Edited by えむ/STSynthe)
 ! Expires: 24 hours
-! Version: 202211300002
+! Version: 202212190001
 !
 ! Last modified: 2021-05-26 20:51 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
@@ -304,7 +304,6 @@ _campaign=$document
 ://creatives.$popup
 ://d.*/l/load.js^$script,third-party
 ://d.*/r/rd.html^$document
-://delivery.$third-party
 ://displayads.
 ://eulerian.
 ://googleads.
