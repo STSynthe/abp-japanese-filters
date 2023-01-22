@@ -2,7 +2,7 @@
 ! Homepage: https://github.com/STSynthe/abp-japanese-filters
 ! Title: ABP Japanese filters(Edited by えむ/STSynthe)
 ! Expires: 24 hours
-! Version: 202212250001
+! Version: 202301230001
 !
 ! Last modified: 2021-05-26 20:51 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
@@ -66,6 +66,8 @@
 @@||ads.line.me/public-docs/
 ! www.dropbox.com added in 2022-12-25
 @@||dropboxstatic.com/static/metaserver/static/js/packaged/*logger.min*.js^$script,domain=www.dropbox.com
+! fandom.com added in 2023-01-23
+@@||fandom.com^*load.php^$script
 !
 ! ---------- Default white list END ----------
 !
