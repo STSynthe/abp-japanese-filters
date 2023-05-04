@@ -55,8 +55,8 @@ ABP Japanese filtersとは別に
 
 * [Git](https://github.com/STSynthe/abp-japanese-filters)
 * [コミットログ](https://github.com/STSynthe/abp-japanese-filters/commits/master)
-* [stsynthe.github.io](https://stsynthe.github.io/abp-japanese-filters/)
-* [戯言ノート](https://stsynthe.github.io/abp-japanese-filters/NOTE)
+* [stsynthe.github.io/abp-japanese-filters](https://stsynthe.github.io/abp-japanese-filters/)
+  * [戯言ノート](https://stsynthe.github.io/abp-japanese-filters/NOTE)
 
 ## tools
 
@@ -70,10 +70,10 @@ ABP Japanese filtersとは別に
 | フィルタ | ライセンス | 備考 |
 | :-- | :-- | :-- |
 | [ABP filters](https://github.com/abp-filters/abp-filters-anti-cv)  | GNU GPL v3.0 | ベースとして入れておきたい一品。 |
-| [EasyList](https://easylist.to)  | GNU GPL v3.0 + CC BY-SA 3.0 | より強力・スマート。必須フィルタといっても良いぐらい。 |
-| [豆腐フィルタ](https://github.com/tofukko/filter) | コピーレフト？ | 国内はほぼ対応。ソースは整理されている[^performance]。2022年時点更新継続中。 |
-| [もちフィルタ](https://eeii0a5l.github.io/mochifilter_homepage/mochi.html) | パブリックドメイン[^mochi] | 最低限のコモンとメジャーなウェブサイトのみに注力したフィルタ。2022年時点更新継続中。 |
-| [Yuki's uBlock Japanese filters （雪フィルタ）](https://github.com/Yuki2718/adblock) | CC BY-SA 4.0 | uBlock Origin向けのフィルタ。2022年時点更新継続中。 |
+| [EasyList](https://easylist.to)  | GNU GPL v3.0 + CC BY-SA 3.0 | 強力で幅広いサポート。 |
+| [豆腐フィルタ](https://github.com/tofukko/filter) | コピーレフト | 国内はほぼ対応。ソースは整理されている[^performance]。 |
+| [もちフィルタ](https://eeii0a5l.github.io/mochifilter_homepage/mochi.html) | <del>パブリックドメイン</del>[^mochi] | 最低限のコモンとメジャーなウェブサイトのみに注力したフィルタ。 |
+| [Yuki's uBlock Japanese filters （雪フィルタ）](https://github.com/Yuki2718/adblock2) | GNU GPL v3.0 | AdGuardおよびuBlock Origin向けのフィルタ。 |
 | [ABP Japanese filters（本家）github.com/k2jp/abp-japanese-filters](https://github.com/k2jp/abp-japanese-filters) | GNU GPL v3.0 + CC BY-NC-SA 4.0 | このフィルタをベースに開発してます。2021年頃に更新が途絶える。 |
 
 ## memo
@@ -84,7 +84,7 @@ ABP Japanese filtersとは別に
 
 [^badboy]: 1万行を超えてるためにパフォーマンス低下と誤爆、さらにuBlock Originからは[「ABP Japanese filtersは酷い」と酷評され](https://www.reddit.com/r/uBlockOrigin/comments/apby98/default_included_abp_japanese_filters_just_sucks/)、デフォルトのリストから外されている。
 [^motivation]: （2022年5月中旬時点）READMEにあるように元は自分用でした。以後もissues以外での不具合対応するモチベーションはないです。ドネーションも今のところ考えてません。
-[^mochi]: （2022年5月上旬時点）「 *もちフィルタは、EasyListと豆腐フィルタから必要最小限のフィルタを抜き出したもの* 」としてる。真偽は兎も角、[EasyListはライセンスを明確](https://easylist.to/pages/licence.html)にしている…
+[^mochi]: （2022年5月上旬時点）「 *もちフィルタは、EasyListと豆腐フィルタから必要最小限のフィルタを抜き出したもの* 」としてる。真偽は兎も角、[EasyListはライセンスを明確](https://easylist.to/pages/licence.html)にしているため勝手にパブリックドメインになることはない。
 [^performance]: ジェネリックや正規表現、拡張機能の多用はパフォーマンス低下に繋がることが確実（ABPフィルタ構文にその旨の記載があります）です。またEasyListについては6万行超えています。
 [^yaruki]: 「やる気低下」というコミットが次第に露呈するはずです。
 [^harmful]: これらは専門的なフィルタやセキュリティーツールが行う仕事（しかも対応が早い）で、私が行動を起こすことはありません。

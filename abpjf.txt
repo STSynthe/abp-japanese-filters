@@ -2,7 +2,7 @@
 ! Homepage: https://github.com/STSynthe/abp-japanese-filters
 ! Title: ABP Japanese filters(Edited by えむ/STSynthe)
 ! Expires: 24 hours
-! Version: 202301230001
+! Version: 202305050001
 !
 ! Last modified: 2021-05-26 20:51 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
@@ -68,6 +68,8 @@
 @@||dropboxstatic.com/static/metaserver/static/js/packaged/*logger.min*.js^$script,domain=www.dropbox.com
 ! fandom.com added in 2023-01-23
 @@||fandom.com^*load.php^$script
+! store.lixil.co.jp added in 2023-05-05
+@@||store.lixil.co.jp/static/version*/*/logger/*.js$script
 !
 ! ---------- Default white list END ----------
 !
@@ -3195,6 +3197,8 @@ e-words.jp###forvisitors
 ||liveadoptimizer.com^
 ||liveadoptimizer.com^$popup
 ||liveads.jp^$third-party
+! store.lixil.co.jp added in 2023-05-05
+||store.lixil.co.jp/amasty_xsearch/
 ||anews.livedoor.biz^$third-party
 ||news4vip.livedoor.biz/rss$subdocument
 ||adv.livedoor.com^
