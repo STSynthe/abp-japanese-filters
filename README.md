@@ -73,7 +73,7 @@ ABP Japanese filtersとは別に
 | [EasyList](https://easylist.to)  | GNU GPL v3.0 + CC BY-SA 3.0 | 強力で幅広いサポート。 |
 | [豆腐フィルタ](https://github.com/tofukko/filter) | コピーレフト | 国内はほぼ対応。ソースは整理されている[^performance]。 |
 | [もちフィルタ](https://eeii0a5l.github.io/mochifilter_homepage/mochi.html) | <del>パブリックドメイン</del>[^mochi] | 最低限のコモンとメジャーなウェブサイトのみに注力したフィルタ。 |
-| [Yuki's uBlock Japanese filters （雪フィルタ）](https://github.com/Yuki2718/adblock2) | GNU GPL v3.0 | AdGuardおよびuBlock Origin向けのフィルタ。 |
+| [adblock2](https://github.com/Yuki2718/adblock2) | GNU GPL v3.0 | AdGuardおよびuBlock Origin向けのフィルタ。 |
 | [ABP Japanese filters（本家）github.com/k2jp/abp-japanese-filters](https://github.com/k2jp/abp-japanese-filters) | GNU GPL v3.0 + CC BY-NC-SA 4.0 | このフィルタをベースに開発してます。2021年頃に更新が途絶える。 |
 
 ## memo
