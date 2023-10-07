@@ -268,11 +268,6 @@ _campaign_$third-party
 _campaign=$document
 
 /owa.$script,domain=~outlook.live.com
-! added in 2022-05-08 (5ch.net)
-5ch.net/js/top_ad.js|
-! added in 2022-05-12
-/^*logger*.js^$script
-/ads.js
 
 ://ad-cdn.
 ://ad1.
