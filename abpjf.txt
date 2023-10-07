@@ -2,7 +2,7 @@
 ! Homepage: https://github.com/STSynthe/abp-japanese-filters
 ! Title: ABP Japanese filters(Edited by えむ/STSynthe)
 ! Expires: 24 hours
-! Version: 202308280002
+! Version: 202310080002
 !
 ! Last modified: 2021-05-26 20:51 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
@@ -21,7 +21,6 @@
 @@||s.yimg.jp/images/auct/$image,script,stylesheet,domain=auctions.yahoo.co.jp
 @@||s.yimg.jp/images/marcom_pr/$image,script,stylesheet,domain=promo-campaign.yahoo.co.jp
 @@||s.yimg.jp/images/shp_$image,script,stylesheet,domain=shopping.yahoo.co.jp
-@@||s.yimg.jp/images/*logger*.js^$script,domain=shopping.yahoo.co.jp
 @@||shopping.yahoo.co.jp/promotion/$xmlhttprequest,domain=shopping.yahoo.co.jp
 ! www.amazon.co.jp added in 2022-05-03 update 2022-05-17
 @@||www.amazon.co.jp/promotion/$xmlhttprequest
@@ -30,8 +29,8 @@
 @@||msftauth.net$domain=live.com
 @@||outlook.live.com/owa/auth/
 @@||ext.live.nicovideo.jp/watch/
-! *.go.jp added in 2022-05-03 update 2022-05-17
-@@||go.jp^
+! *.go.jp added in 2022-05-03 update 2023-10-08
+@@||.go.jp^
 ! dlsite.com added in 2022-05-03
 @@||www.dlsite.com/vue/js/$script
 ! goo.ne.jp added in 2022-05-04
@@ -68,8 +67,6 @@
 @@||dropboxstatic.com/static/$script,domain=dropbox.com
 ! fandom.com added in 2023-01-23
 @@||fandom.com^*load.php^$script
-! store.lixil.co.jp added in 2023-05-05
-@@||store.lixil.co.jp/static/version*/*/logger/*.js$script
 !
 ! ---------- Default white list END ----------
 !
