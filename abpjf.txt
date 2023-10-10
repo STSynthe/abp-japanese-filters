@@ -2500,6 +2500,8 @@ e-words.jp###forvisitors
 ||goallurl.ru^
 ||gogorithm.com^
 ||golden-prize.com^$popup
+! value-domain.com added in 2023-10-10
+||goldspotmedia.com^$third-party
 ||goo.gl^$subdocument,third-party
 ||goo.mx^
 ||goo.ne.jp/b.
@@ -3478,6 +3480,8 @@ e-words.jp###forvisitors
 ||mixpanel.com^$third-party
 ||mixtraff.com^
 ||mizuhobank.co.jp^*/js/rotation.$script
+! mmstat.com added in 2023-10-10
+||nkis.nikkei.com^$domain=nikkei.com
 ||mk-style.com^$third-party
 ||mkfst.com^$third-party
 ||ml314.com^
