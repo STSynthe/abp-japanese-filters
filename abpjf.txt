@@ -2,7 +2,7 @@
 ! Homepage: https://github.com/STSynthe/abp-japanese-filters
 ! Title: ABP Japanese filters(Edited by えむ/STSynthe)
 ! Expires: 24 hours
-! Version: 202310080002
+! Version: 202405010001
 !
 ! Last modified: 2021-05-26 20:51 JST(UTC+0900)
 ! Change log: https://github.com/k2jp/abp-japanese-filters/wiki/FilterChangeLog
@@ -22,9 +22,10 @@
 @@||s.yimg.jp/images/marcom_pr/$image,script,stylesheet,domain=promo-campaign.yahoo.co.jp
 @@||s.yimg.jp/images/shp_$image,script,stylesheet,domain=shopping.yahoo.co.jp
 @@||shopping.yahoo.co.jp/promotion/$xmlhttprequest,domain=shopping.yahoo.co.jp
-! www.amazon.co.jp added in 2022-05-03 update 2022-05-17
+! www.amazon.co.jp added in 2022-05-03 update 2024-05-01
 @@||www.amazon.co.jp/promotion/$xmlhttprequest
 @@||www.amazon.co.jp$generichide
+@@||data.amazon.co.jp/api/marketplaces/*/promotions$xmlhttprequest
 ! msftauth.net + outlook.live.com/owa/auth/ added in 2022-05-03 reference -> https://docs.microsoft.com/ja-jp/mem/configmgr/core/plan-design/network/internet-endpoints
 @@||msftauth.net$domain=live.com
 @@||outlook.live.com/owa/auth/
